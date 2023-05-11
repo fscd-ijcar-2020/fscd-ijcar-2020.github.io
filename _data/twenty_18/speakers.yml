@@ -1,0 +1,97 @@
+  # - title: Name
+  #   name: Name-4
+  #   subtitle: Position
+  #   img: TBD.jpg
+  #   thumbnail: TBD.jpg
+  #   alt: Picture of TBD
+  #   topic: Topic
+  #   description: More Info
+
+- title: FSCD-IJCAR Joint Invited Speakers
+  name: joint-speakers
+  speakers:
+  - title: René Thiemann
+    name: Thiemann
+    subtitle: University of Innsbruck
+    img: thiemann.jpg
+    thumbnail: thiemann.jpg
+    alt: Picture of René Thiemann
+    topic: "Certifying termination proofs: from term rewriting to SMT solving and back"
+    description: Joint FSCD-IJCAR talk
+    website: http://cl-informatik.uibk.ac.at/users/thiemann/
+
+  - title: John Harrison
+    name: Harrison
+    subtitle: Amazon Web Services
+    img: harrison.jpg
+    thumbnail: harrison.jpg
+    alt: Picture of John Harrison
+    topic: TBA
+    description: Joint FSCD-IJCAR invited talk
+    website: https://www.cl.cam.ac.uk/~jrh13/
+
+- title: FSCD Invited Speakers
+  name: fscd-speakers
+  speakers:
+  - title: Andrew Pitts
+    name: Pitts
+    subtitle: University of Cambridge
+    img: pitts.jpg
+    thumbnail: pitts.jpg
+    alt: Picture of Andrew Pitts
+    topic: Quotients in dependent type theory
+    description: FSCD invited talk
+    website: https://www.cl.cam.ac.uk/~amp12/
+
+  - title: Simona Ronchi della Rocca
+    name: Ronchi
+    subtitle: Università di Torino
+    img: ronchi.jpg
+    thumbnail: ronchi.jpg
+    alt: Picture of Simona Ronchi della Rocca
+    topic: "A foundational lambda calculus for probabilistic computation"
+    description: FSCD invited talk
+    website: http://www.di.unito.it/~ronchi/
+
+  - title: Brigitte Pientka
+    name: Pientka
+    subtitle: McGill University
+    img: pientka.jpg
+    thumbnail: pientka.jpg
+    alt: Picture of Brigitte Pientka
+    topic: "Type-theoretic foundations for meta-programming"
+    description: FSCD invited talk
+    website: https://www.cs.mcgill.ca/~bpientka/
+
+- title: IJCAR Invited Speakers
+  name: ijcar-speakers
+  speakers:
+  - title: Clark Barrett
+    name: ijcar-1
+    subtitle: Stanford University, USA
+    img: barrett.jpg
+    thumbnail: barrett.jpg
+    alt: Picture of Clark Barrett
+    topic: TBA
+    description: IJCAR invited talk
+    website: https://theory.stanford.edu/~barrett/
+
+  - title: Elaine Pimentel
+    name: ijcar-2
+    subtitle: Federal University of Rio Grande do Norte, Brazil
+    img: pimentel.jpg
+    thumbnail: pimentel.jpg
+    alt: Picture of Elaine Pimentel
+    topic: TBA
+    description: IJCAR invited talk
+    website: https://sites.google.com/site/elainepimentel/
+
+  - title: Ruzica Piskac
+    name: ijcar-3
+    subtitle: Yale University, USA
+    img: piskac.jpg
+    thumbnail: piskac.jpg
+    alt: Picture of Ruzica Piskac
+    topic: TBA
+    description: IJCAR invited talk
+    website: http://www.cs.yale.edu/homes/piskac/

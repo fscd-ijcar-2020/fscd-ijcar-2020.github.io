@@ -1,0 +1,86 @@
+---
+layout: schedule-template
+---
+
+<div class="event black-frame" style="margin:100px 5vw 60px 5vw;padding:0px;"">
+  <h1 class="text-xl">Program: {{ page.date }}</h1>
+
+
+  <div class="container-fluid">
+    <div class="row text-center margin-top-lg">
+      {% for day in page.days %}
+      <a class="btn btn-primary" href="/{{ page.program_base }}/day{{ forloop.index }}" role="button">{{ day }}</a>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row text-center margin-top-lg">
+      <h4>
+          All times are local
+          <a href="https://www.timeanddate.com/time/zone/france/paris">
+            Paris time
+          </a>
+        <br/>
+        CEST zone: Central European Summer Time (Daylight Saving Time) -
+        UTC+2
+      </h4>
+      <p style="text-align:center;">
+        Click on the hour on the left column to see the corresponding
+        time in your zone</p>
+    </div>
+    <div class="row text-center">
+      <a class="btn btn-xsm btn-info"
+        href="/workshops#schedule">
+      See week schedule</a>
+    </div>
+  </div>
+
+  <div id="schedule" class="cd-schedule cd-schedule--loading margin-top-lg margin-bottom-lg js-cd-schedule">
+    <div class="cd-schedule__timeline">
+      {% assign mins = "00, 15, 30, 45" | split: ", " %}
+      <ul>
+        {% assign x = page.hend | minus: 1 %}
+        {% for hour in (page.hstart..x) %}
+          {% for min in mins %}
+            <li><a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=2020{{ page.month }}{{ page.day }}T{{ hour }}{{ min }}&p1=195">
+              {{ hour }}:{{ min }}
+            </a></li>
+          {% endfor %}
+        {% endfor %}
+        <li><a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=2020{{ page.month }}{{ page.day }}T{{ page.hend }}00&p1=195">
+          {{ page.hend }}:00
+        </a></li>
+      </ul>
+    </div> <!-- .cd-schedule__timeline -->
+
+    <div class="cd-schedule__events">
+      <ul>
+        {{ content }}
+      </ul>
+    </div>
+
+    <div class="cd-schedule-modal">
+      <header class="cd-schedule-modal__header">
+        <div class="cd-schedule-modal__content">
+          <span class="cd-schedule-modal__date"></span>
+          <h3 class="cd-schedule-modal__name"></h3>
+        </div>
+
+        <div class="cd-schedule-modal__header-bg"></div>
+      </header>
+
+      <div class="cd-schedule-modal__body">
+        <div class="cd-schedule-modal__event-info"></div>
+        <div class="cd-schedule-modal__body-bg"></div>
+      </div>
+
+      <a href="#0" class="cd-schedule-modal__close text-replace">Close</a>
+    </div>
+
+    <div class="cd-schedule__cover-layer"></div>
+  </div> <!-- .cd-schedule -->
+
+  <script src="/css/2016_style/schedule-template/js/util.js"></script> <!-- util functions included in the CodyHouse framework -->
+  <script src="/css/2016_style/schedule-template//js/main.js"></script>
+
+</div>

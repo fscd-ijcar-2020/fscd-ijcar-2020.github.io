@@ -1,0 +1,25 @@
+---
+layout: 2018_default
+permalink: /organising-committee
+title: Organising Committee
+published: false
+---
+
+<div class="event black-frame">
+  <h1>{{ page.title }}</h1>
+
+  {% for chair in site.data.conference.organising_committee %}
+  <h2>{{ chair.name }}</h2>
+
+  <ul>
+    {% for member in chair.members %}
+    <li>
+      {{ member.firstname }}
+      {{ member.lastname }},
+      {{ member.affiliation }}
+    </li>
+    {% endfor %}
+  </ul>
+
+  {% endfor %}
+</div>

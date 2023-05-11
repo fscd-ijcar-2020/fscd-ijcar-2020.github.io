@@ -1,0 +1,49 @@
+name:
+program:
+- date: 05/07/20
+  sessions:
+  - title: 'Session 1: Invited talk'
+    type: talks
+    start: '09:00'
+    end: '10:00'
+    talks:
+    - time: '09:00'
+      authors:
+      - Dan Ghica
+      title: Hypernet Semantics of Programming Languages
+  - title: 'Session 1: Contributed talks'
+    type: talks
+    start: '10:00'
+    end: '11:00'
+    talks:
+    - time: '10:00'
+      authors:
+      - Graham Campbell
+      title: Parallel Hyperedge Replacement String Languages
+    - time: '10:30'
+      authors:
+      - Clemens Grabmayer
+      title:
+        "Structure-Constrained Process Graphs for the Process Semantics of Regular Expressions"
+  - title: Coffee Break
+    start: '11:00'
+    end: '11:30'
+    type: break
+  - title: 'Session 2: Invited talk'
+    start: '11:30'
+    end: '12:30'
+    type: talks
+    talks:
+    - time: '11:30'
+      authors:
+      - Nicolas Behr
+      title: "An Introduction to Stochastic Mechanics for Categorical Rewriting Systems"
+  - title: 'Session 2: Contributed talk'
+    start: '12:30'
+    end: '13:00'
+    type: talks
+    talks:
+    - time: '12:30'
+      authors:
+      - Thierry Boy de La Tour
+      title: Parallel Independence in Attributed Graph Rewriting

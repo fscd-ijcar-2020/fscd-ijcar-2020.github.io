@@ -1,0 +1,99 @@
+---
+permalink: /program/sessions/ijcar-session11B
+published: true
+---
+
+<div class="cd-schedule-modal__event-info">
+	<div>
+        <p><strong>Session 11B</strong></p>
+        <p>Chair: Leonardo de Moura</p>
+
+<ul style="list-style-position: outside; list-style: square;">
+<li>
+13:00: <strong>Lukasz Czajka.</strong>
+<it>Practical proof search for Coq by type inhabitation.</it>
+
+            &nbsp;&nbsp;&nbsp;
+            <a data-toggle="collapse"
+                href="#collapseAbstract1" role="button"
+                style="font-size: var(--text-xsm);"
+                aria-expanded="false" aria-controls="collapseAbstract1">
+                See abstract
+            </a>...
+            <div class="collapse" id="collapseAbstract1">
+                <div class="card card-body" style="padding-left:20px">
+        ABSTRACT. We present a practical proof search procedure for Coq based on a direct search for type inhabitants in an appropriate normal form. An implementation in a Coq plugin is available. It significantly outperforms the automation natively available in Coq, proving in 30s, with no ATP input, 40.9% of 4494 theorems from a collection of Coq libraries and 17.1% of CompCert. As a reconstruction backend for CoqHammer, the procedure achieves reconstruction success rates in the range 87-97%.<br/>
+For efficiency, our procedure is not complete for the Calculus of Inductive Constructions, but it is complete for a first-order fragment. Even in pure intuitionistic first-order logic, with large enough time limit our method outperforms Coq’s "firstorder" tactic, achieving a 29.5% success rate on the ILTP library of first-order intuitionistic problems.
+                </div>
+            </div>
+        </li>
+<li>
+13:30: <strong>Xavier Allamigeon, Ricardo David Katz, Pierre-Yves Strub.</strong>
+<it>Formalizing the Face Lattice of Polyhedra.</it>
+
+            &nbsp;&nbsp;&nbsp;
+            <a data-toggle="collapse"
+                href="#collapseAbstract2" role="button"
+                style="font-size: var(--text-xsm);"
+                aria-expanded="false" aria-controls="collapseAbstract2">
+                See abstract
+            </a>...
+            <div class="collapse" id="collapseAbstract2">
+                <div class="card card-body" style="padding-left:20px">
+        ABSTRACT. Faces play a central role in the combinatorial and computational aspects of polyhedra. In this paper, we present the first formalization of faces of polyhedra in the proof assistant Coq. This builds on the formalization of a library providing the basic constructions and operations over polyhedra, including projections, convex hulls and images under linear maps. Moreover, we design a special mechanism which automatically introduces an appropriate representation of a polyhedron or a face, depending on the context of the proof. We demonstrate the usability of this approach by establishing some of the most important combinatorial properties of faces, namely that they constitute a family of graded atomistic and coatomistic lattices closed under sublattices.
+                </div>
+            </div>
+        </li>
+<li>
+14:00: <strong>Dominik Kirst, Dominique Larchey-Wendling.</strong>
+<it>Trakhtenbrot's Theorem in Coq.</it>
+
+            &nbsp;&nbsp;&nbsp;
+            <a data-toggle="collapse"
+                href="#collapseAbstract3" role="button"
+                style="font-size: var(--text-xsm);"
+                aria-expanded="false" aria-controls="collapseAbstract3">
+                See abstract
+            </a>...
+            <div class="collapse" id="collapseAbstract3">
+                <div class="card card-body" style="padding-left:20px">
+        ABSTRACT. We study finite first-order satisfiability (FSAT)
+in the constructive setting of dependent type theory.
+Employing synthetic accounts of enumerability and decidability, 
+we give a full classification of FSAT depending on
+the first-order signature of non-logical symbols.
+On the one hand, 
+our development focuses on Trakhtenbrot's theorem, stating
+that FSAT is undecidable as soon as the signature contains an at least binary 
+relation symbol. Our proof proceeds by a many-one reduction chain 
+starting from the Post correspondence problem.
+On the other hand, we establish the decidability of FSAT for monadic 
+first-order logic, i.e. where the signature only 
+contains at most unary function and relation symbols, as well as the enumerability 
+of FSAT for arbitrary 
+enumerable signatures.
+All our results are mechanised in the framework of a growing Coq library of synthetic undecidability proofs.
+                </div>
+            </div>
+        </li>
+<li>
+14:30: <strong>Pengyu Nie, Karl Palmskog, Junyi Jessy Li, Milos Gligoric.</strong>
+<it>Deep Generation of Coq Lemma Names Using Elaborated Terms.</it>
+
+            &nbsp;&nbsp;&nbsp;
+            <a data-toggle="collapse"
+                href="#collapseAbstract4" role="button"
+                style="font-size: var(--text-xsm);"
+                aria-expanded="false" aria-controls="collapseAbstract4">
+                See abstract
+            </a>...
+            <div class="collapse" id="collapseAbstract4">
+                <div class="card card-body" style="padding-left:20px">
+        ABSTRACT. Coding conventions for naming, spacing, and other essentially stylistic properties are necessary for developers to effectively understand, review, and modify source code in large software projects. Consistent conventions in verification projects based on proof assistants, such as Coq, increase in importance as projects grow in size and scope. While conventions can be documented and enforced manually at high cost, emerging approaches automatically learn and suggest idiomatic names in Java-like languages by applying statistical language models on large code corpora. However, due to its powerful language extension facilities and fusion of type checking and computation, Coq is a challenging target for automated learning techniques. We present novel generation models for learning and suggesting lemma names for Coq projects. Our models, based on multi-input neural networks, are the first to leverage syntactic and semantic information from Coq’s lexer (tokens in lemma statements), parser (syntax trees), and kernel (elaborated terms); the key insight is that learning from elaborated terms can substantially boost model performance. We implemented our models in a toolchain, dubbed Roosterize, and applied it to learn from a large corpus of code derived from the Mathematical Components family of projects, known for its stringent coding conventions. Our results show that Roosterize substantially outperforms baselines for suggesting lemma names, highlighting the importance of using multi-input models and elaborated terms.
+                </div>
+            </div>
+        </li>
+</ul>
+
+    </div>
+</div>

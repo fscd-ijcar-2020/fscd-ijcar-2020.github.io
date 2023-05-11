@@ -1,0 +1,112 @@
+name: Isabelle Workshop 2020
+program:
+- date: 29/06/20
+- date: 30/06/20
+  sessions:
+  - chairs:
+    - Tobias Nipkow
+    end: '11:00'
+    num: 1
+    start: '09:30'
+    talks:
+    - authors:
+      - Chelsea Edmonds
+      time: '09:30'
+      title: 'Lucas''s Theorem: Formalising Generating Function Proofs'
+    - authors:
+      - Lawrence Paulson
+      time: '10:00'
+      title: 'Ackermann''s Function in Iterative Form: A Subtle Termination Proof
+        with Isabelle/HOL'
+    - authors:
+      - "Asta Halkj\xE6r From"
+      - "J\xF8rgen Villadsen"
+      time: '10:30'
+      title: A Concise Sequent Calculus for Teaching First-Order Logic
+    title: Session 1
+    type: talks
+  - end: '11:30'
+    num: 2
+    start: '11:00'
+    title: Virtual coffee break
+    type: break
+  - chairs:
+    - Makarius Wenzel
+    end: '13:00'
+    num: 3
+    start: '11:30'
+    talks:
+    - authors:
+      - Yiannos Stathopoulos
+      - Angeliki Koutsoukou-Argyraki
+      - Lawrence Paulson
+      time: '11:30'
+      title: 'SErAPIS : A Concept-Oriented Search Engine for the Isabelle Libraries
+        Based on Natural Language'
+    - authors:
+      - Fabian Huch
+      - Alexander Krauss
+      time: '12:00'
+      title: 'FindFacts: A Scalable Theorem Search'
+    - authors:
+      - Clemens Ballarin
+      time: '12:30'
+      title: An Antiquotation for Locale Graphs
+    title: Session 2
+    type: talks
+  - end: '14:00'
+    num: 4
+    start: '13:00'
+    title: Lunch break
+    type: break
+  - chairs:
+    - Larry Paulson
+    end: '15:30'
+    num: 5
+    start: '14:00'
+    talks:
+    - authors:
+      - Makarius Wenzel
+      time: '14:00'
+      title: Isabelle NEWS and trends in 2020
+    - authors:
+      - Andreas Lochbihler
+      - "Ognjen Mari\u0107"
+      time: '14:30'
+      title: Authenticated Data Structures as Functors in Isabelle/HOL
+    - authors:
+      - Martin Desharnais
+      - Stefan Brunthaler
+      time: '15:00'
+      title: A Generic Framework for Verified Compilers Using Isabelle/HOL's Locales
+    title: Session 3
+    type: talks
+  - end: '16:00'
+    num: 6
+    start: '15:30'
+    title: Virtual coffee break
+    type: break
+  - chairs:
+    - Andreas Lochbihler
+    end: '17:30'
+    num: 7
+    start: '16:00'
+    talks:
+    - authors:
+      - Yutaka Nagashima
+      time: '16:00'
+      title: Smart Induction for Isabelle/HOL
+    - authors:
+      - Walther Neuper
+      time: '16:30'
+      title: Lucas-Interpretation on Isabelle's Functions
+    - authors:
+      - "Fr\xE9d\xE9ric Tuong"
+      - Burkhart Wolff
+      time: '17:30'
+      title: 'Isabelle/C: A Generic Front-End of C11 Supported in Isabelle/PIDE'
+    title: Session 4
+    type: talks
+progurl: https://sketis.net/isabelle/isabelle-workshop-2020#program
+title: isabelle
+url: https://sketis.net/isabelle/isabelle-workshop-2020

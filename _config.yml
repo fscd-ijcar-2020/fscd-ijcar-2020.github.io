@@ -1,0 +1,46 @@
+title: 10th IJCAR and 5th FSCD Colocated in Paris
+acronym: IJCAR - FSCD 2020
+dates: June 29 - July 6, 2020
+place: Paris, France
+co-located: false
+
+description: > # this means to ignore newlines until "baseurl:"
+  [FSCD](http://fscd-conference.org)
+  (Int. Conf. on Formal Structures for Computation and Deduction)
+  and
+  [IJCAR](http://ijcar.org)
+  (Int. Joint Conference on Automatic Reasoning)
+  2020 will be colocated
+  in Paris, France
+  from June 29 to July 5, 2020.
+
+logo:
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://fscd-ijcar-2020.org" # the base hostname & protocol for your site
+
+# Contact email
+contact: contact@fscd-ijcar-2020.org
+
+google_site_verification: googleXXXXXXXXXXXXXXXX.html
+
+# Social networks usernames (many more available: twitter, facebook, instagram, linkedin, etc.)
+social:
+
+# Pages
+include:
+- .htaccess
+- _2018_pages
+
+exclude:
+- "README.*"
+- scripts
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Build settings
+markdown: kramdown
+permalink: pretty

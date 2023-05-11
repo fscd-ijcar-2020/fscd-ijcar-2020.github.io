@@ -1,0 +1,165 @@
+name: PAAR 2020
+program:
+- date: 29/06/20
+  sessions:
+  - chairs:
+    - Pascal Fontaine
+    - "Philipp R\xFCmmer"
+    - Sophie Tourret
+    end: '14:00'
+    num: 1
+    start: '13:45'
+    talks:
+    - authors:
+      - Pascal Fontaine
+      - "Philipp R\xFCmmer"
+      - Sophie Tourret
+      time: '13:45'
+      title: Welcome to PAAR 2020
+    title: Session 0
+    type: talks
+  - chairs:
+    - "Cl\xE1udia Nalon"
+    end: '15:30'
+    num: 2
+    start: '14:00'
+    talks:
+    - authors:
+      - Pedro Barroso
+      - "Ant\xF3nio Ravara"
+      - "M\xE1rio Pereira"
+      time: '14:00'
+      title: 'Animated Logic: Correct Functional Conversion to Conjunctive Normal
+        Form!'
+    - authors:
+      - Hans de Nivelle
+      time: '14:30'
+      title: Deciding Logical Relations between Inductive Types using Monadic Horn
+        Clauses!
+    - authors:
+      - Constantin Ruhdorfer
+      - Stephan Schulz
+      time: '15:00'
+      title: Efficient Implementation of Large-Scale Watchlists!
+    title: Session 1
+    type: talks
+  - end: '16:00'
+    num: 3
+    start: '15:30'
+    title: Virtual coffee break
+    type: break
+  - chairs:
+    - Martin Suda
+    end: '17:30'
+    num: 4
+    start: '16:00'
+    talks:
+    - authors:
+      - "J\xF8rgen Villadsen"
+      time: '16:00'
+      title: A Micro Prover for Teaching Automated Reasoning!
+    - authors:
+      - Sen Zheng
+      - Renate A. Schmidt
+      time: '16:30'
+      title: Querying the Guarded Fragment via Resolution!
+    - authors:
+      - Nahku Saidy
+      - Hanna Siegfried
+      - Stephan Schulz
+      - Geoff Sutcliffe
+      time: '17:00'
+      title: Cutting down the TPTP language (and others)!
+    title: Session 2
+    type: talks
+- date: 30/06/20
+  sessions:
+  - chairs:
+    - Geoff Sutcliffe
+    end: '15:30'
+    num: 5
+    start: '13:30'
+    talks:
+    - authors:
+      - "Petar Vukmirovi\u0107"
+      - Visa Nummelin
+      time: '13:30'
+      title: Boolean Reasoning in a Higher-Order Superposition Prover!
+    - authors:
+      - "Filip B\xE1rtek"
+      - Martin Suda
+      time: '14:00'
+      title: Learning Precedences from Simple Symbol Features!
+    - authors:
+      - Ahmed Bhayat
+      - Michael Rawson
+      - Giles Reger
+      time: '14:30'
+      title: Reinforcement-Learned External Guidance for Theorem Provers!
+    - authors:
+      - Seulkee Baek
+      time: '15:00'
+      title: The TESC Proof Format for First-Order ATPs!
+    title: Session 3
+    type: talks
+  - end: '16:00'
+    num: 6
+    start: '15:30'
+    title: Virtual coffee break
+    type: break
+  - chairs:
+    - Stephan Schulz
+    end: '17:30'
+    num: 7
+    start: '16:00'
+    talks:
+    - authors:
+      - Michael Rawson
+      - Giles Reger
+      time: '16:00'
+      title: Directed Graph Networks for Logical Reasoning!
+    - authors:
+      - Qinghua Liu
+      - Zishi Wu
+      - Zihao Wang
+      - Geoff Sutcliffe
+      time: '16:30'
+      title: Evaluation of Axiom Selection Techniques!
+    - authors:
+      - Bernhard Gleiss
+      - Martin Suda
+      time: '17:00'
+      title: Layered Clause Selection for Saturation-based Theorem Proving!
+    title: Session 4
+    type: talks
+  - end: '18:00'
+    num: 8
+    start: '17:30'
+    title: Virtual coffee break
+    type: break
+  - chairs:
+    - "Ond\u0159ej Leng\xE1l"
+    end: '19:30'
+    num: 9
+    start: '18:00'
+    talks:
+    - authors:
+      - Benjamin Oliver
+      - Jens Otten
+      time: '18:00'
+      title: Equality Preprocessing in Connection Calculi!
+    - authors:
+      - Robert Lewis
+      - Paul-Nicolas Madelaine
+      time: '18:30'
+      title: Simplifying Casts and Coercions!
+    - authors:
+      - Thomas Prokosch
+      - "Fran\xE7ois Bry"
+      time: '19:00'
+      title: Give Reasoning a Trie!
+    title: Session 5
+    type: talks
+progurl: http://paar2020.gforge.inria.fr/
+title: paar
+url: http://paar2020.gforge.inria.fr/

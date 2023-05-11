@@ -1,0 +1,27 @@
+---
+layout: 2018_default
+permalink: /news
+title: IJCAR-FSCD 2020 News
+published: true
+---
+
+<div class="event black-frame">
+
+<h1>{{ page.title }}</h1>
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p>{{ post.date | date_to_long_string }}
+        {% if post.author %}
+        - <em>{{ post.author }}</em>
+        {% endif %}
+      </p>
+      <p>{{ post.excerpt }}</p>
+      <p><a href="{{ post.url }}">[Read more]</a></p>
+    </li>
+  {% endfor %}
+</ul>
+
+</div>

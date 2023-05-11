@@ -1,0 +1,622 @@
+pre-two:
+  title: 29-30 June
+  list:
+  - name: Joint Workshop on Linearity and Trends in Linear Logic and Applications
+    acronym: Linearity & TLLA
+    edition: 2nd
+    main_conf: FSCD
+    url: http://lipn.univ-paris13.fr/LinearityTLLA2020
+    organisers:
+    - name: Thomas Ehrhard
+      email: ehrhard@irif.fr
+      affiliation: France	CNRS and Université de Paris, France
+      webpage: https://www.irif.fr/~ehrhard/
+    - name: Valeria de Paiva
+      email: valeria.depaiva@gmail.com
+      affiliation: Samsung Research America, CA, United States
+    description: >
+      This workshop aims at bringing together researchers who are currently
+      developing theory and applications of linear calculi or use linear
+      logic as a technical tool or a methodological guidline, to foster
+      their interaction and provide a forum for presenting new ideas and
+      work in progress, and enable newcomers to learn about current
+      activities in this area. Linearity is a key feature in both
+      theoretical and practical approaches to computer science, and the goal
+      of this workshop is to present work exploring linearity both in theory
+      and practice. The addressed topics include proof representation,
+      operational, static and dynamical models of programming languages,
+      linear languages and type systems, parallelism and concurrency,
+      quantum and probabilist computation, as well as philosophy and
+      linguistics.
+
+  - name: "International Workshop on Logical Frameworks and Meta-Languages:
+      Theory and Practice"
+    acronym: LFMTP
+    edition: 15th
+    main_conf: IJCAR
+    url: https://lfmtp.org/workshops/2020/
+    organisers:
+    - name: Claudio Sacerdoti Coen
+      email: sacerdot@cs.unibo.it
+      affiliation: University of Bologna, Italy
+      webpage: https://www.cs.unibo.it/~sacerdot/
+    - name: Alwen Tiu
+      email: Alwen.Tiu@anu.edu.au
+      affiliation: The Australian National University, Australia
+    description: >
+      Logical frameworks and meta-languages form a common substrate for
+      representing, implementing, and reasoning about a wide variety of
+      deductive systems of interest in logic and computer science. Their
+      design and implementation on the one hand and their use in reasoning
+      tasks ranging from the correctness of software to the properties of
+      formal computational systems on the other hand have been the focus
+      of considerable research over the last three decades. This workshop
+      will bring together designers, implementors, and practitioners to
+      discuss various aspects impinging on the structure and utility of
+      logical frameworks, including the treatment of variable binding,
+      inductive and co-inductive reasoning techniques, and the expressivity
+      and lucidity of the reasoning process.
+
+  - name: Workshop on Practical Aspects of Automated Reasoning
+    acronym: PAAR
+    edition: 7th
+    main_conf: IJCAR
+    url: http://paar2020.gforge.inria.fr
+    organisers:
+    - name: Sophie Tourret
+      email: stourret@mpi-inf.mpg.de
+      affiliation: Max Planck Institute for Informatics, Germany
+      webpage: https://www.mpi-inf.mpg.de/departments/automation-of-logic/people/sophie-tourret/
+    - name: Pascal Fontaine
+      email: Pascal.Fontaine@uliege.be
+      affiliation: Université de Liège, Belgium
+      webpage: http://www.montefiore.ulg.ac.be/~pfontain/
+    - name: Philipp Rümmer
+      email: philipp.ruemmer@it.uu.se
+      affiliation: Uppsala University, Sweden
+    description: >
+      PAAR (Practical Aspects of Automated Reasoning) provides a forum for
+      developers of automated reasoning tools to discuss and compare different
+      implementation techniques, and for users to discuss and communicate their
+      applications and requirements. This series of workshops brings together
+      different groups to concentrate on practical aspects of the implementation
+      and application of automated reasoning tools. Work in progress, new
+      implementation techniques, and applications are particularly welcome.
+
+pre-fst:
+  title: 29 June
+  list:
+  - name: International Workshop on Unification
+    acronym: Unif
+    edition: 34th
+    main_conf: FSCD
+    url: http://unif2020.org
+    organisers:
+    - name: Temur Kutsia
+      email: kutsia@risc.jku.at
+      affiliation: RISC, Johannes Kepler University Linz, Austria
+      webpage: http://www.risc.jku.at/people/tkutsia
+    - name: Andrew M. Marshall
+      email: amarsha2@umw.edu
+      affiliation: Univeristy of Mary Washington, USA
+      webpage: https://www.marshallandrew.net/
+    description: >
+      The 34th International Workshop on Unification is the next event in a
+      series of international meetings devoted to unification theory and its
+      applications. Unification is concerned with the problem of making two
+      terms equal, finding solutions for equations, or making formulas
+      equivalent. It is a fundamental process used in a number of fields of
+      computer science, including automated reasoning, term rewriting, logic
+      programming, natural language processing, program analysis, types, etc.
+
+      Topics of interest of the workshop include syntactic and equational
+      unification algorithms, matching and constraint solving, unification
+      in modal, temporal, and description logics, higher-order unification,
+      narrowing, disunification, anti-unification, complexity issues,
+      combination methods, implementation techniques, and applications.
+
+  - name: International Workshop on Rewriting Techniques for Program
+      Transformations and Evaluation
+    acronym: WPTE
+    edition: 7th
+    main_conf: FSCD
+    url: http://maude.ucm.es/wpte20/
+    organisers:
+    - name: Adrian Riesco
+      email: ariesco@fdi.ucm.es
+      affiliation: Universidad Complutense de Madrid, Spain
+      webpage: http://maude.sip.ucm.es/~adrian/
+    - name: Vivek Nigam
+      email: nigam@fortiss.org
+      affiliation: fortiss GmbH, Germany
+    description: >
+      The aim of WPTE is to bring together the researchers working on program
+      transformations, evaluation, and operationally-based programming
+      language semantics, using rewriting methods, in order to share the
+      techniques and recent developments and to exchange ideas to encourage
+      further activation of research in this area. The programming languages
+      of interest include pure, deterministic, impure, nondeterministic,
+      concurrent, parallel languages, and may employ programming paradigms
+      such as functional, logical, typed, imperative, object-oriented, and
+      higher-order.
+
+  - name: Proof Ground - Interactive Proving Contests
+    acronym: PG
+    edition: 2nd
+    main_conf: IJCAR
+    url: https://www21.in.tum.de/~wimmers/proofground/
+    organisers:
+    - name: Maximilian Paul Louis Haslbeck
+      email: haslbema@in.tum.de
+      affiliation: Technical University of Munich, Germany
+    - name: Simon Wimmer
+      email: wimmers@in.tum.de
+      affiliation: Technical University of Munich, Germany
+    - name: Tobias Nipkow
+      email: nipkow@in.tum.de
+      affiliation: Technical University of Munich, Germany
+      webpage: http://www.in.tum.de/~nipkow
+    description: >
+      This workshop brings together researchers theorem proving enthusiasts
+      to discuss and compete in “proving contests”. While programming contests
+      (e.g. ACM ICPC, International Olympiad in Informatics) challenge large
+      numbers of participants to solve algorithmic problems within a short
+      time, we envision proving contests to entice proof engineers
+      to formally prove small but interesting problems from mathematics or
+      computer science.
+      An existing contest system (https://competition.isabelle.systems/)
+      has been used to organize online proving contests where participants
+      can solve tasks using Coq, Lean, or Isabelle.
+      The workshop will be organized around an on-site contest,
+      supplemented with informal discussions.
+      We welcome participation from users of proof assistants which are not
+      supported by the system.
+
+pre-snd:
+  title: 30 June
+  list:
+  - name: Women in Logic
+    acronym: WiL
+    edition: 5th
+    main_conf: FSCD
+    url: https://sites.google.com/g.uporto.pt/wil2020
+    organisers:
+    - name: Sandra Alves
+      email: sandra@fc.up.pt
+      affiliation: University of Porto, Portugal
+      webpage: http://www.dcc.fc.up.pt/~sandra
+    - name: Sandra Kiefer
+      email: kiefer@informatik.rwth-aachen.de
+      affiliation: RWTH Aachen University, Germany
+      webpage: https://www.lics.rwth-aachen.de/~kiefer
+    - name: Ana Sokolova
+      email: anas@cs.uni-salzburg.at
+      affiliation: University of Salzburg, Austria
+    description: >
+      The Women in Logic workshop (WiL), provides an opportunity to increase
+      awareness of the valuable contributions made by women in the area of
+      logic in computer science. Its main purpose is to promote the excellent
+      research made by women, with the ultimate goal of increasing their
+      visibility and representation in the community, while reducing the
+      feeling of isolation often felt by women in this area. We find these
+      aspects particularly useful to encourage young researchers working in
+      these topics.
+
+  - name: International Workshop on Confluence
+    acronym: IWC
+    edition: 9th
+    main_conf: FSCD
+    url: http://iwc2020.cic.unb.br
+    organisers:
+    - name: Mauricio Ayala-Rincon
+      email: ayala@unb.br
+      affiliation: Universidade de Brasilia, Brazil
+      webpage: http://www.mat.unb.br/~ayala
+    - name: Samuel Miriam
+      email: samuel.mimram@lix.polytechnique.fr
+      affiliation: LIX, France
+    description: >
+      Confluence provides a general notion of determinism and has been
+      conceived as one of the central properties of rewriting. Recently
+      there is a renewed interest in confluence research, resulting in new
+      techniques, tool support, certication as well as new applications.
+      The workshop aims at promoting  further research in confluence and
+      related properties.
+
+  - name: "IFIP Working Group 1.6: Rewriting"
+    acronym: IFIP WG 1.6
+    edition: 23rd
+    main_conf: FSCD
+    url: https://tcs-informatik.uibk.ac.at/ifip-wg1.6/
+    organisers:
+    - name: Georg Moser
+      email: georg.moser@uibk.ac.at
+      affiliation: University of Innsbruck, Austria
+      webpage: http://cl-informatik.uibk.ac.at/~georg/
+    - name: Martin Avanzini
+      email: martin.avanzini@inria.fr
+      affiliation: INRIA, France
+      webpage: http://cl-informatik.uibk.ac.at/~zini/
+    description: >
+      The IFIP Working Group 1.6 is one of the working groups of the Technical
+      Committee 1 of the International Federation for Information Processing
+      (IFIP).
+
+      IFIP is the leading multinational, apolitical organisation in
+      Information & Communications Technologies and Sciences. It is
+      recognised by the United Nations and other world bodies, represents
+      IT Societies from 56 countries or regions, covering all 5 continents
+      with a total membership of over half a million.
+
+  - name: Isabelle Workshop
+    acronym: Isabelle
+    edition:
+    main_conf: IJCAR
+    url: https://sketis.net/isabelle/isabelle-workshop-2020
+    description: |
+      This informal workshop will bring together users and developers of the
+      interactive theorem prover Isabelle. Participants will present their
+      research and projects, including applications of Isabelle, internal
+      developments, add-on tools, and reports on work in progress.
+    organisers:
+    - name: Tobias Nipkow
+      email: nipkow@in.tum.de
+      affiliation: Technical University of Munich, Germany
+      webpage: http://www.in.tum.de/~nipkow
+    - name: Lawrence Paulson
+      email: lp15@cam.ac.uk
+      affiliation: University of Cambridge, UK
+      webpage: http://www.cl.cam.ac.uk/~lp15/
+    - name: Makarius Wenzel
+      email: makarius@sketis.net
+      affiliation: sketis.net, Germany
+      webpage: https://sketis.net
+
+post-two:
+  title: 5-6 July
+  list:
+  - name: Workshop on Homotopy Type Theory/Univalent Foundations
+    acronym: HoTT/UF
+    edition: 5th
+    main_conf: FSCD
+    organisers:
+      - name: Benedikt Ahrens
+        affiliation: School of Computer Science, University of Birmingham, UK
+        email: b.ahrens@cs.bham.ac.uk
+        webpage: https://benediktahrens.net
+      - name: Chris Kapulkin
+        affiliation: Department of Mathematics, Western University, Canada
+        email: kkapulki@uwo.ca
+        webpage: http://www-home.math.uwo.ca/~kkapulki/
+    url: https://hott-uf.github.io/2020/
+    description: |
+      Homotopy type theory is a young and rapidly developing area at the
+      intersection of computer science and mathematics, importing the ideas from
+      abstract homotopy theory to dependent type theory. This workshop aims to
+      bring together researchers interested in all aspects of homotopy type theory
+      and univalent foundations to showcase the new techniques and results in the
+      field.
+
+  - name: Geometric and Categorical Structures for Computation and deduction
+    acronym: GeoCat
+    edition: 1st
+    main_conf: FSCD
+    url: https://www.irif.fr/~geocat/geocat2020
+    organisers:
+    - name: Paul-André Melliès
+      email: mellies@irif.fr
+      affiliation: 	CNRS - University of Paris, France
+      webpage: http://www.irif.fr/~mellies
+    - name: Christine Tasson
+      email: tasson@irif.fr
+      affiliation: University of Paris, France
+      webpage: https://www.irif.fr/~tasson/
+    description:
+      The purpose of the GeoCat workshop is to offer an open, inspiring and
+      interdisciplinary venue for researchers interested in the interactions
+      between category theory and the formal as well as geometric aspects of
+      computation and deduction. The topics discussed during the workshop
+      will include algebraic topology and concurrency theory, homotopy theory
+      and higher-dimensional rewriting, homotopy and cubical type theory,
+      monoidal categories and string diagrams, linear logic and game
+      semantics, differential, probabilistic, topological and metric
+      interpretations of logic and computations, combinatorial species,
+      automata theory, categorical logic, coalgebraic methods, syntax and
+      semantics of effect and resource calculi, categorical and homological
+      approaches to information theory and entropy, etc. The atmosphere of
+      the workshop will be friendly and propitious for fruitful exchanges and
+      discussions accross the various fields of investigation.
+
+  - name: The Coq Workshop
+    acronym: Coq
+    edition: 11th
+    main_conf: IJCAR
+    url: https://coq-workshop.gitlab.io/2020/
+    organisers:
+    - name: Emilio J. Gallego Arias
+      email: e@x80.org
+      affiliation: France	INRIA
+      webpage: https://www.cri.ensmp.fr/people/gallego/
+    - name: Hugo Herbelin
+      email: hugo.herbelin@inria.fr
+      affiliation: France	INRIA
+      webpage: http://pauillac.inria.fr/~herbelin/index-eng.html
+    - name: Théo Zimmermann
+      email: theo@irif.fr
+      affiliation: CNRS - INRIA - University of Paris, France
+      webpage: http://www.theozimmermann.net
+    description: >
+      The Coq Workshop series brings together Coq users, developers, and
+      contributors. It focuses on strengthening the Coq community and providing a
+      forum for discussing practical issues, including the future of the Coq
+      software and its associated ecosystem of libraries and tools. Thus, the
+      workshop will be organized around informal presentations, discussions,
+      invited talks as well as thematic sessions.
+
+      We invite all members of the Coq community to propose informal talks,
+      discussion sessions, or any potential uses of the time allocated to the
+      workshop.
+
+      Last but not the least, Coq is celebrating its 35th birthday. It was
+      initiated in Paris area by Gérard Huet and Thierry Coquand, later joined by
+      Christine Paulin. Some time will be reserved to retrace the evolution of Coq
+      and highlight the new promises it continues to carry.
+
+  - name: International Workshop on Satisfiability Modulo Theories
+    acronym: SMT
+    edition: 18th
+    main_conf: IJCAR
+    url: http://smt-workshop.cs.uiowa.edu/2020/index.shtml
+    organisers:
+    - name: Tjark Weber
+      email: tjark.weber@it.uu.se
+      affiliation: Uppsala University, Sweden
+      webpage: http://user.it.uu.se/~tjawe125/
+    - name: François Bobot
+      email: francois.bobot@cea.fr
+      affiliation: CEA, List, France
+      webpage: http://frama-c.com
+    description: >
+      The SMT Workshop is focused on bringing together researchers and
+      users of tools and techniques for satisfiability modulo theories.
+      Relevant topics include but are not limited to:
+      * New decision procedures and new theories of interest
+      * Combinations of decision procedures
+      * Novel implementation techniques
+      * Benchmarks and evaluation methodologies
+      * Applications and case studies
+      * Theoretical results
+
+post-fst:
+  title: 5 July
+  list:
+  - name: International Workshop on Computing with Terms and Graphs
+    acronym: TERMGRAPH
+    edition: 11th
+    main_conf: FSCD
+    url: http://termgraph.org.uk/2020/
+    organisers:
+    - name: Maribel Fernandez
+      email: maribel.fernandez@kcl.ac.uk
+      affiliation: Kings College London, UK
+      webpage: http://www.inf.kcl.ac.uk/staff/maribel
+    - name: Patrick Bahr
+      email: paba@itu.dk
+      affiliation: IT University of Copenhagen
+      webpage: http://bahr.io
+    description: >
+      Graphs, and graph transformation systems, are used in many areas within
+      Computer Science: to represent data structures and algorithms, to define
+      models of computation, as a general modelling tool to study complex
+      systems, etc. When computing with graphs rather than terms, common
+      subexpressions can be shared, thus improving the efficiency of
+      computations in space and time. Sharing is ubiquitous in implementations
+      of programming languages: many functional, logic, object-oriented and
+      concurrent calculi are implemented using graphs.
+      TERMGRAPH 2020 will solicit papers describing new results relating to
+      the theory or practical applications of graph transformation systems.
+
+  - name: Workshop on Satisfiability Checking and Symbolic Computation
+    acronym: SC^2
+    edition: 5th
+    main_conf: IJCAR
+    url: http://www.sc-square.org/CSA/workshop5.html
+    organisers:
+    - name: Konstantin Korovin
+      email: korovin@cs.man.ac.uk
+      affiliation: The University of Manchester, UK
+      webpage: http://www.cs.man.ac.uk/~korovink
+    - name: Ilias Kotsireas
+      email: ikotsire@wlu.ca
+      affiliation: Wilfrid Laurier University, Canada
+    description: >
+      Symbolic Computation is concerned with the algorithmic determination of
+      exact solutions to complex mathematical problems; recent developments
+      in the area of Satisfiability Checking are starting to tackle similar
+      problems but with different algorithmic and technological solutions.
+      The two communities share many central interests, but researchers
+      from these two communities rarely interact. Also, the lack of common
+      or compatible interfaces of tools is an obstacle to their fruitful
+      combination.
+      Bridges between the communities in the form of common platforms and
+      road-maps are necessary to initiate an exchange, and to support and
+      direct their interaction.
+      The aim of the SC2 workshop is to provide fertile ground to discuss,
+      share knowledge and experience across both communities.
+
+cancelled:
+  title: Cancelled
+  list:
+  - name: International Workshop on Semantic and formal approaches to COmplexiTy
+    acronym: SCOT
+    edition: 1st
+    main_conf: FSCD
+    organisers:
+    - name: Patrick Baillot
+      email: patrick.baillot@ens-lyon.fr
+      affiliation: 	CNRS - ENS Lyon, France
+      webpage: http://perso.ens-lyon.fr/patrick.baillot/
+    description: >
+      The SCOT workshop is devoted to the problem of reasoning on the
+      complexity properties of programs in formal and compositional ways.
+      Many approaches have been exploited for that, taking advantage from
+      logic, category theory, denotational semantics, type systems,
+      interpretations \dots This workshop aims at providing a forum of
+      discussion for all issues related to these questions, from foundational
+      aspects on semantics of complexity to automated time or space complexity
+      analysis.
+
+  - name: International Workshop on Termination
+    acronym: WST
+    edition: 17th
+    main_conf: FSCD
+    url: http://costa.fdi.ucm.es/wst2020/
+    organisers:
+    - name: Samir Genaim
+      email: genaim@gmail.com
+      affiliation: Universidad Complutense de Madrid, Spain
+      webpage: https://costa.fdi.ucm.es/~genaim
+    description: >
+      The Workshop on Termination (WST) traditionally brings together, in an
+      informal setting, researchers interested in all aspects of termination,
+      whether this interest is practical or theoretical, primary or derived.
+      The workshop also provides a ground for cross-fertilization of ideas
+      from the different communities interested in termination (e.g.,
+      working on computational mechanisms, programming languages, software
+      engineering, constraint solving, etc.). The friendly atmosphere enables
+      fruitful exchanges leading to joint research and subsequent publications.
+
+  - name: International Workshop on Automated Reasoning in Quantified Non-Classical Logics
+    acronym: ARQNL
+    edition: 4th
+    main_conf: IJCAR
+    url: http://iltp.de/ARQNL-2020/
+    organisers:
+    - name: Christoph Benzmüller
+      email: c.benzmueller@googlemail.com
+      affiliation: Freie Universität Berlin, Germany
+      webpage: http://christoph-benzmueller.de
+    - name: Jens Otten
+      email: jeotten@ifi.uio.no
+      affiliation: 	University of Oslo, Norway
+      webpage: http://jens-otten.de
+    description: >
+      The ARQNL workshop aims at fostering the development of proof calculi,
+      Automated Theorem Proving systems and model finders for all sorts of
+      quantified, i.e first- or higher-order, non-classical logics. The
+      workshop will provide a forum for researchers to present and discuss
+      recent developments in this area. These contributions may range from
+      theory to system descriptions and implementations. Contributions may
+      also outline relevant applications, describe problem formalizations,
+      example problems and benchmarks that use a quantified non-classical
+      logic. We welcome contributions from computer scientists, linguists,
+      philosophers, and mathematicians. The workshop will consists of invited
+      talks, peer-reviewed paper presentations and system demonstrations.
+
+  - name: Theorem Prover Components for Educational Software
+    acronym: ThEdu
+    edition: 9th
+    main_conf: IJCAR
+    organisers:
+      - name: João Marcos
+        affiliation: Federal University of Rio Grande do Norte, Brazil
+        email: botocudo@gmail.com
+      - name: Walther Neuper
+        affiliation: TUG University of Technology, Austria
+        email: wneuper@ist.tugraz.at
+        webpage: http://www.ist.tugraz.at/staff/neuper
+      - name: Pedro Quaresma
+        affiliation: University of Coimbra, Portugal
+        email: pedro@mat.uc.pt
+        webpage: http://www.mat.uc.pt/~pedro
+    url: http://www.uc.pt/en/congressos/thedu/thedu20
+    description: >
+      (Computer) Theorem Proving (TP) is becoming a paradigm as well as a
+      technological base for a new generation of educational software in
+      science, technology, engineering and mathematics.
+      The workshop brings together experts in automated deduction with experts
+      in education in order to further clarify the shape of the new software
+      generation and to discuss systems already prototyping some of the
+      features mentioned.
+
+  - name: Deduction Mentoring Workshop
+    acronym: DeMent
+    edition: 3rd
+    main_conf: IJCAR
+    url: https://easychair.org/smart-program/DeMent20/
+    organisers:
+    - name: Laura Kovacs
+      email: lkovacs@forsyte.tuwien.ac.at
+      affiliation: Vienna University of Technology, Austria
+      webpage: http://forsyte.at/people/kovacs/
+    description: >
+      The DeMent 2020 workshop will provide mentoring and help on career
+      development for young researchers working in automated reasoning,
+      with the overall aim to attract and help them to establish themselves
+      as researchers in automated reasoning. The workshop will address
+      challenges of the academic life and give insight in industrial research.
+      For doing so, the workshop will include talks from leading experts of
+      automated reasoning in academia and industry, and will also include
+      presentations on career-planning.
+
+      The workshop aims to reach and attract master students, PhD students
+      and young postdocs as participants.
+
+  - name: Vampire
+    acronym: Vampire
+    edition: 7th
+    main_conf: IJCAR
+    url: https://easychair.org/smart-program/Vampire20/
+    organisers:
+    - name: Laura Kovacs
+      email: lkovacs@forsyte.tuwien.ac.at
+      affiliation: Vienna University of Technology, Austria
+      webpage: http://forsyte.at/people/kovacs/<
+    - name: Andrei Voronkov
+      email: andrei@voronkov.com
+      affiliation: The University of Manchester, UK
+      webpage: http://www.voronkov.com/
+    description: >
+      The workshop aims at discussing recent developments in implementing,
+      applying benchmarking and comparing first-order theorem provers and
+      their combinations with other systems.
+      The workshop is going to shed the light on problems such as
+      - what is essential for substantial progress in theorem proving tools;
+      - what are the best implementation principles to be used;
+      - what are the best heuristics and strategies, depending on application areas; - both successful and unsuccessful case studies;
+      - missing features in modern theorem provers.
+      The workshop will also overview the most recent advances made in Vampire.
+
+  - name: Tutorial on Hacking Zipperposition
+    acronym: HZ
+    edition: 1st
+    main_conf: IJCAR
+    organisers:
+      - name: Sophie Tourret
+        affiliation: MPII, Saarbrücken, Germany
+        email: sophie.tourret@mpi-inf.mpg.de
+        webpage: https://www.mpi-inf.mpg.de/departments/automation-of-logic/people/sophie-tourret/
+      - name: Alexander Bentkamp
+        affiliation: Vrije Universiteit Amsterdam, Netherlands
+        email: a.bentkamp@vu.nl
+      - name: Simon Cruanes
+        affiliation: Imandra Inc., Austin, Texas, USA
+        email: simon@imandra.ai
+      - name: Petar Vukmirović
+        affiliation: Vrije Universiteit Amsterdam, Netherlands
+        email: p.vukmirovic@vu.nl
+    description: >
+      Zipperposition is a highly modular first- and higher-order
+      superposition-based theorem prover written in OCaml. In this tutorial, you
+      will learn of its main modules, how to hack them and how to create new ones.
+      Our aim is that after this tutorial, you can easily prototype your own
+      calculi in Zipperposition.
+
+      The tutorial will consist in three parts:
+
+      1. an introduction to OCaml and Zip<perposition;
+      2. implementing a resolution-based theorem prover using Zipperposition’s
+        core libraries;
+      3. and, implementing a theory module in Zipperposition.
+
+      All parts will be hands-on sessions.

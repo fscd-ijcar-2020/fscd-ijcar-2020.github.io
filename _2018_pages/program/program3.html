@@ -1,0 +1,32 @@
+---
+layout: main-schedule-template
+permalink: /program/day3
+title: Program, July 3rd
+published: true
+date: Friday, July 3rd
+day: '03'
+month: '07'
+daynum: 2
+hstart: 13
+hend: 19
+days: [ "Wednesday, July 1st", "Thursday, July 2nd", "Friday, July 3rd", "Saturday, July 4th" ]
+program_base: program
+---
+
+<script> document.documentElement.style.setProperty('--schedule-rows-number', 24); </script>
+
+{% assign conf = 'fscd' %}
+{% assign confname = 'FSCD' %}
+{% assign track = 'A' %}
+{% assign event = 'event-fscd' %}
+{% include 2018_data/schedule-session.html %}
+{% assign track = 'B' %}
+{% include 2018_data/schedule-session.html %}
+
+{% assign conf = 'ijcar' %}
+{% assign confname = 'IJCAR' %}
+{% assign track = 'A' %}
+{% assign event = 'event-ijcar' %}
+{% include 2018_data/schedule-session.html %}
+{% assign track = 'B' %}
+{% include 2018_data/schedule-session.html %}

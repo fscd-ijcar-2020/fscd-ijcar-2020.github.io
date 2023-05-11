@@ -1,0 +1,159 @@
+name:
+program:
+- date: 05/07/20
+  sessions:
+  - start: '10:00'
+    end: '11:00'
+    tile:	"Session 1: SMT for Program Verification"
+    chairs:
+    - TBA
+    type: talks
+    talks:
+    - time: '10:00'
+      title: "SMT-Friendly Formalization of the Solidity Memory Model"
+      authors:
+      - Ákos Hajdu
+      - Dejan Jovanović
+    - time: '10:30'
+      title: "Towards an SMT-LIB Theory of Heap"
+      authors:
+      - Zafer Esen
+      - Philipp Rümmer
+  - start: '11:00'
+    end: '11:30'
+    title: "Vrtual coffee break"
+    type: break
+  - start: '11:30'
+    end: '13:00'
+    title: "Session 2: SAT and Bit Vectors"
+    chairs:
+    - TBA
+    type: talks
+    talks:
+    - time: '11:30'
+      title: "Lifting congruence closure with free variables to λ-free higher-order logic via SAT encoding"
+      authors:
+      - Sophie Tourret
+      - Pascal Fontaine
+      - Daniel El-Ouraoui
+      - Haniel Barbosa
+    - time: '12:00'
+      title: "An Empirical Evaluation of SAT Solvers on Bit-vector Problems"
+      authors:
+      - Bruno Dutertre
+    - time: '12:30'
+      title: "Structural Bit-Vector Model Counting"
+      authors:
+      - Seonmo Kim
+      - Stephen McCamant
+  - start: '13:00'
+    end: '14:00'
+    type: break
+    title: "Lunch break"
+  - start: '14:00'
+    end: '15:30'
+    title: "Joint SMTSC2 session"
+    chairs:
+    - Konstantin Korovin
+  - start: '15:30'
+    end: '16:00'
+    title: 'Virtual coffee break'
+    type: break
+  - start: '16:00'
+    end: '17:00'
+    title: 'Session 3: Invited talk'
+    chairs:
+    - TBA
+    type: talks
+    talks:
+    - time: '16:00'
+      title: "Solving String Constraints, Starting from the Beginning and from the End"
+      authors:
+      - Philipp Rümmer
+- date: 06/07/20
+  sessions:
+  - start: '10:00'
+    end: '11:00'
+    title: "Session 1: Invited talk"
+    chairs:
+    - TBA
+    type: talks
+    talks:
+    - time: '10:00'
+      title: "Harnessing SMT Solvers for Verifying Low Level Programs"
+      authors:
+      - Mooly Sagiv
+  - start: '11:00'
+    end: '11:30'
+    title: "Virtual coffee break"
+    type: break
+  - start: "11:30"
+    end: "13:00"
+    title: "Session 2: Learning for SMT"
+    chairs:
+    - TBA
+    type: talks
+    talks:
+    - time: '11:30'
+      title: "BanditFuzz: A Reinforcement-Learning based Performance Fuzzer for SMT Solvers"
+      authors:
+      - Joseph Scott
+      - Federico Mora
+      - Vijay Ganesh
+    - time: '12:00'
+      title: "MachSMT: A Machine Learning-based Algorithm Selector for SMT Solvers"
+      authors:
+      - Joseph Scott
+      - Aina Niemetz
+      - Mathias Preiner
+      - Vijay Ganesh
+    - time: '12:30'
+      title: "Bayesian Optimisation of Solver Parameters in CBMC"
+      authors:
+      - Chaitanya Mangla
+      - Sean Holden
+      - Lawrence Paulson
+  - start: '13:00'
+    end: '14:00'
+    title: Lunch break
+    type: break
+  - start: '14:00'
+    end: '15:30'
+    title: "Session 3: SMT Solvers"
+    chairs:
+    - TBA
+    type: talks
+    talks:
+    - time: '14:00'
+      tyile: "Smt-Switch: a solver-agnostic C++ API for SMT solving"
+      authors:
+      - Makai Mann
+      - Amalee Wilson
+      - Cesare Tinelli
+      - Clark Barrett
+    - time: '14:30'
+      title: "SMT-COMP 2020 Report and Tool Presentations"
+      authors:
+      - Haniel Barbosa
+      - Jochen Hoenicke
+      - Antti Hyvärinen
+  - start: '15:30'
+    end: '16:00'
+    title: Virtual coffee break
+    type: break
+  - start: '16:00'
+    end: '17:30'
+    title: 'Session 4: Reports and Business Meeting'
+    chairs:
+    - TBA
+    type: talks
+    talks:
+    - time: '16:00'
+      title: "SMT-LIB Report"
+      authors:
+      - Cesare Tinelli
+      - Pascal Fontaine
+    - time: '16:45'
+      title: Business meeting of the SMT Steering Committee
+      authors:
+      - Business Meeting

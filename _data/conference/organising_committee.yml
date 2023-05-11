@@ -1,0 +1,17 @@
+- name: Program Chair
+  members:
+  - firstname: Zena M.
+    lastname: Ariola
+    affiliation: University of Oregon
+
+- name: Conference Chair
+  members:
+  - firstname: Stefano
+    lastname: Guerrini
+    affiliation: University Paris 13
+
+- name: Publicity Chair
+  members:
+  - firstname: Sandra
+    lastname: Alves
+    affiliation: University of Porto

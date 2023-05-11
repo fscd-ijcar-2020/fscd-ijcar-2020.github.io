@@ -1,0 +1,12 @@
+---
+layout: streaming
+title: PAAR (Day 1)
+permalink: streaming/wsday1/PAAR.html
+published: true
+width: 1120
+height: 630
+day: wsday1
+---
+
+{% assign conf = 'paar' %}
+{% include streaming.html %}

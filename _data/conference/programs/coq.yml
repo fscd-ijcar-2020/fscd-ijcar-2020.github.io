@@ -1,0 +1,161 @@
+name:
+program:
+- date: 05/07/20
+  sessions:
+  - title: "Panel: Libraries"
+    num: 1
+    type: talks
+    start: '11:30'
+    end: '12:30'
+    chairs:
+    - Bas Spitters
+    talks:
+    - time: '11:30'
+      authors:
+      - Andrej Bauer
+      - Cyril Cohen
+      - Robbert Krebbers
+      - Guillaume Melquiond
+      - Anders Mortberg
+      - Karl Palmskog
+      title:
+  - title: Meta-programming and automation
+    chairs:
+    - Matthieu Sozeau
+    start: '14:30'
+    end: '15:30'
+    type: talks
+    talks:
+    - title: "FPC-Coq: Using ELPI to elaborate external proof evidence into Coq proofs"
+      authors:
+      - Roberto Blanco
+      - Matteo Manighetti
+      - Dale Miller
+      time: '14:30'
+    - time: '14:50'
+      title: "Generating induction principles and subterm relations for inductive types using MetaCoq"
+      authors:
+      - Bohdan Liesnikov
+      - Marcel Ullrich
+      - Yannick Forster
+    - time: '15:10'
+      title: "A Decision Procedure for Equivalence Relations"
+      authors:
+      - Sébastien Michelland
+      - Pierre Corbineau
+      - Lionel Rieg
+      - Karine Altisen
+  - title: Tools
+    chairs:
+    - Emilio J. Gallego Arias
+    start: '16:00'
+    end: '17:00'
+    type: talks
+    talks:
+    - time: '16:00'
+      title: "The Coq Proof Script Visualiser (coq-psv)"
+      authors:
+      - Mario Frank
+    - time: '16:20'
+      title: "A Gentle Introduction to Container-based CI for Coq projects"
+      authors:
+      - Érik Martin-Dorel
+    - time: '16:40'
+      title: "Learning to Format Coq Code Using Language Models"
+      authors:
+      - Pengyu Nie
+      - Karl Palmskog
+      - Junyi Jessy Li
+      - Milos Gligoric
+- date: 06/07/20
+  sessions:
+  - title: Mathematics
+    type: talks
+    start: '10:00'
+    end: '11:00'
+    chairs:
+    - Yves Bertot
+    talks:
+    - time: '10:00'
+      title: Hierarchy Builder
+      authors:
+      - Cyril Cohen
+      - Kazuhiko Sakaguchi
+      - Enrico Tassi
+    - time: '10:20'
+      title: "A hierarchy of ordered types in Mathematical Components"
+      authors:
+      - Xavier Allamigeon
+      - Cyril Cohen
+      - Kazuhiko Sakaguchi
+      - Pierre-Yves Strub
+    - time: '10:40'
+      title: "Developing sequence and tree fintypes in MathComp"
+      authors:
+      - Pierre-Léo Bégay
+      - Pierre Crégut
+      - Jean-Francois Monin
+  - title: Invited talk
+    chairs:
+    - Hugo Herbelin
+    type: talks
+    start: '11:30'
+    end: '12:00'
+    talks:
+    - title: "A Coq retrospective, at the heart of Coq architecture, the genesis of version 7.0"
+      time: '11:30'
+      authors:
+      - Jean-Christophe Filliâtre
+  - title: "Panel: Meeting with Coq Dev Team"
+    chairs:
+    - Matthieu Sozeau
+    start: '12:00'
+    end: '13:00'
+    type: talks
+    talks:
+    - authors: "The Coq Team"
+      title: With the presence of the Coq Team
+      time: '12:00'
+  - title: Verification
+    chairs: François Pottier
+    start: '14:10'
+    end: '15:30'
+    type: talks
+    talks:
+    - time: '14:10'
+      title: "Experience Report: Smuggling a Little Bit of Coq Inside a CAD Development Context"
+      authors:
+      - Dimitur Krustev
+    - time: '14:30'
+      title: 'High-assurance field inversion for pairing-friendly primes'
+      authors:
+      - Benjamin S. Hvass
+      - Diego F. Aranha
+      - Bas Spitters
+    - time: '14:50'
+      title: "Verifying, testing and running smart contracts in ConCert"
+      authors:
+      - Danil Annenkov
+      - Mikkel Milo
+      - Jakob Botsch Nielsen
+      - Bas Spitters
+    - time: '15:10'
+      title: "Towards an Axiomatic Basis for C++"
+      authors:
+      - Gregory Malecha
+      - Abhishek Anand
+      - Gordon Stewart
+  - title: "Panel: Domain-agnostic and Domain-specific Proof Automation"
+    chairs:
+    - Arthur Charguéraud
+    start: '16:00'
+    end: '17:00'
+    type: talks
+    talks:
+    - time: '16:00'
+      title: Panel discussion
+      authors:
+      - Jason Gross
+      - Jan-Oliver Kaiser
+      - Chantal Keller
+      - Sophie Tourret

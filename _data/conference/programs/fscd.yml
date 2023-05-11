@@ -1,0 +1,361 @@
+title: "fscd"
+name: "FSCD 2020"
+url: "https://fscd2020.org"
+progurl: "https://easychair.org/smart-program/FSCD2020/"
+program:
+- date: 01/07/20
+  sessions:
+  - type: talks
+    num: 1
+    title: "FSCD-IJCAR Invited Speaker: R. Thiemann"
+    start: "11:30"
+    end: "12:30"
+    chairs:
+    - Stefano Guerrini
+    talks:
+    - time: "11:30"
+      title: "Certifying Termination Proofs: From Term Rewriting to SMT Solving and Back"
+      authors:
+      - René Thiemann
+  - type: break
+    title: "Coffee Break"
+    start: "12:30"
+    end: "13:00"
+  - type: talks
+    num: 2
+    track: A
+    title: "Rewriting"
+    start: "13:00"
+    end: "14:30"
+    chairs:
+    - Aart Middeldorp
+    talks:
+    - time: "13:00"
+      title: "A Fast Decision Procedure for Uniqueness of Normal Forms w.r.t. Conversion of Shallow Term Rewriting Systems"
+      authors:
+      - Masaomi Yamaguchi
+      - Takahito Aoto
+    - time: "13:30"
+      title: "Strongly Normalizing Higher-Order Relational Queries"
+      authors:
+      - Wilmer Ricciotti
+      - James Cheney
+    - time: "14:00"
+      title: "WANDA - a Higher Order Termination Tool - System description"
+      authors:
+      - Cynthia Kop
+  - type: talks
+    num: 2
+    track: B
+    title: "Program Logics and Verification"
+    start: "13:00"
+    end: "15:00"
+    chairs:
+    - Michele Pagani
+    talks:
+    - time: "13:00"
+      title: "Symbolic Execution Game Semantics"
+      authors:
+      - Yu-Yang Lin
+      - Nikos Tzevelekos
+    - time: "13:30"
+      title: "A Probabilistic Higher-order Fixpoint Logic"
+      authors:
+      - Yo Mitani
+      - Naoki Kobayashi
+      - Takeshi Tsukada
+    - time: "14:00"
+      title: "Refining Constructive Hybrid Games"
+      authors:
+      - Brandon Bohrer
+      - André Platzer
+    - time: "14:30"
+      title: "On Average-Case Hardness of Higher-Order Model Checking"
+      authors:
+      - Yoshiki Nakamura
+      - Kazuyuki Asada
+      - Naoki Kobayashi
+      - Ryoma Sin'Ya
+      - Takeshi Tsukada
+  - type: talks
+    num: 3
+    title: "IJCAR-FSCD Invited Speaker: J. Harrison"
+    start: "15:15"
+    end: "16:15"
+    chairs:
+    - Joseph Urban
+    talks:
+    - time: "15:15"
+      title: "Adventures in Verifying Arithmetic"
+      authors:
+      - John Harrison
+- date: 02/07/20
+  sessions:
+  - type: talks
+    num: 4
+    title: "Invited Speaker: S. Ronchi Della Rocca"
+    start: "13:00"
+    end: "14:00"
+    chairs:
+    - Robert Harper
+    talks:
+    - time: "13:00"
+      title: "A foundational lambda calculus for probabilistic computation"
+      authors:
+      - Simona Ronchi Della Rocca
+  - type: break
+    title: "Coffee Break"
+    start: "14:00"
+    end: "14:30"
+  - type: talks
+    num: 5
+    track: A
+    title: "Grammars, Automata and Decision Trees"
+    start: "14:30"
+    end: "16:30"
+    chairs:
+    - Maribel Fernandez
+    talks:
+    - time: "14:30"
+      title: "Adaptive Non-linear Pattern Matching Automata"
+      authors:
+      - Rick Erkens
+      - Maurice Laveaux
+    - time: "15:00"
+      title: "Size-Preserving Translations from Order-(n+1) Word Grammars to Order-n Tree Grammars"
+      authors:
+      - Kazuyuki Asada
+      - Naoki Kobayashi
+    - time: "15:30"
+      title: "Unital Anti-unification: Type and Algorithms"
+      authors:
+      - David Cerna
+      - Temur Kutsia
+    - time: "16:00"
+      title: "Undecidability of Semi-unification on a Napkin *** Best paper by a junior researcher"
+      authors:
+      - Andrej Dudenhefner
+  - type: talks
+    num: 5
+    track: B
+    title: "Categorical Semantics  and Structures"
+    start: "14:30"
+    end: "16:30"
+    chairs:
+    - Pierre-Louis Curien
+    talks:
+    - time: "14:30"
+      title: "Towards Constructive Hybrid Semantics"
+      authors:
+      - Tim Lukas Diezel
+      - Sergey Goncharov
+    - time: "15:00"
+      title: "String diagrams for optics"
+      authors:
+      - Guillaume Boisseau
+    - time: "15:30"
+      title: "A Profunctorial Scott Semantics"
+      authors:
+      - Zeinab Galal
+    - time: "16:00"
+      title: "Comprehension and quotient structures in the language of 2-categories"
+      authors:
+      - Paul-André Melliès
+      - Nicolas Rolland
+  - type: break
+    title: "Coffee Break"
+    start: "16:30"
+    end: "17:00"
+  - type: talks
+    num: 6
+    track: A
+    title: "Theorem Proving Algorithms and Constraint Solving"
+    start: "17:00"
+    end: "18:30"
+    chairs:
+    - Cynthia Kop
+    talks:
+    - time: "17:00"
+      title: "Constraint Solving over Multiple Similarity Relations"
+      authors:
+      - Besik Dundua
+      - Temur Kutsia
+      - Mircea Marin
+      - Cleopatra Pau
+    - time: "17:30"
+      title: "A Type Checker for a Logical Framework with Union and Intersection Types - System description"
+      authors:
+      - Claude Stolze
+      - Luigi Liquori
+    - time: "18:00"
+      title: "Efficient Full Higher-Order Unification *** Best paper by junior researchers"
+      authors:
+      - Petar Vukmirović
+      - Alexander Bentkamp
+      - Visa Nummelin
+  - type: talks
+    num: 6
+    track: B
+    title: "Program Specification"
+    start: "17:00"
+    end: "18:00"
+    chairs:
+    - Tarmo Uustalu
+    talks:
+    - time: "17:00"
+      title: "Hierarchy Builder: algebraic hierarchies made easy in Coq with Elpi - System description"
+      authors:
+      - Cyril Cohen
+      - Kazuhiko Sakaguchi
+      - Enrico Tassi
+    - time: "17:30"
+      title: "Modules over monads and operational semantics"
+      authors:
+      - André Hirschowitz
+      - Tom Hirschowitz
+      - Ambroise Lafont
+- date: 03/07/20
+  sessions:
+  - type: talks
+    num: 7
+    title: "Invited speaker: A. Pitts"
+    start: "13:00"
+    end: "14:00"
+    chairs:
+    - Silvia Ghilezan
+    talks:
+    - time: "13:00"
+      title: "Quotients in Dependent Type Theory"
+      authors:
+      - Andrew Pitts
+  - type: break
+    title: "Coffee Break"
+    start: "14:00"
+    end: "14:30"
+  - type: talks
+    num: 8
+    track: A
+    title: "Dependent Types and Rewriting"
+    start: "14:30"
+    end: "16:30"
+    chairs:
+    - Sandra Alves
+    talks:
+    - time: "14:30"
+      title: "Type safety of rewriting rules in dependent types"
+      authors:
+      - Frédéric Blanqui
+    - time: "15:00"
+      title: "Encoding Agda Programs using Rewriting"
+      authors:
+      - Guillaume Genestier
+    - time: "15:30"
+      title: "The new rewriting engine of Dedukti - System description"
+      authors:
+      - Gabriel Hondet
+      - Frédéric Blanqui
+    - time: "16:00"
+      title: "A Syntax for Mutual Inductive Families"
+      authors:
+      - Ambrus Kaposi
+      - Jakob von Raumer
+  - type: talks
+    num: 8
+    track: B
+    title: "Concurrency"
+    start: "14:30"
+    end: "16:00"
+    chairs:
+    - Dan Ghica
+    talks:
+    - time: "14:30"
+      title: "Pomsets with Boxes: Protection, Separation, and Locality in Concurrent Kleene Algebra"
+      authors:
+      - Paul Brunet
+      - David Pym
+    - time: "15:00"
+      title: "Conditional Bisimilarity for Reactive Systems"
+      authors:
+      - Mathias Hülsbusch
+      - Barbara König
+      - Sebastian Küpper
+      - Lars Stoltenow
+    - time: "15:30"
+      title: "Resource-Aware Session Types with Arithmetic Refinements *** Best system description by a  junior researcher"
+      authors:
+      - Ankush Das
+      - Frank Pfenning
+  - type: generic
+    num: 9
+    title: "FSCD General Meeting"
+    start: "16:30"
+    end: "18:00"
+- date: 04/07/20
+  sessions:
+  - type: talks
+    num: 10
+    track: A
+    title: "Calculi and Translations"
+    start: "13:00"
+    end: "14:30"
+    chairs:
+    - Paweł Urzyczyn
+    talks:
+    - time: "13:00"
+      title: "Semi-Axiomatic Sequent Calculus"
+      authors:
+      - Henry DeYoung
+      - Frank Pfenning
+      - Klaas Pruiksma
+    - time: "13:30"
+      title: "A Gentzen-style monadic translation of Goedel's System T"
+      authors:
+      - Chuangjie Xu
+    - time: "14:00"
+      title: "The difference lambda-calculus: a language for difference categories."
+      authors:
+      - Mario Alvarez-Picallo
+      - C.-H. Luke Ong
+  - type: talks
+    num: 10
+    track: B
+    title: "Effects"
+    start: "13:00"
+    end: "14:30"
+    chairs:
+    - Amr Sabry
+    talks:
+    - time: "13:00"
+      title: " A Reflection on Continuation-Composing Style"
+      authors:
+      - Dariusz Biernacki
+      - Mateusz Pyzik
+      - Filip Sieczkowski
+    - time: "13:30"
+      title: "Data-flow analyses as effects and graded monads"
+      authors:
+      - Andrej Ivaskovic
+      - Alan Mycroft
+      - Dominic Orchard
+    - time: "14:00"
+      title: "A Complete Normal-Form Bisimilarity  for Algebraic Effects and Handlers"
+      authors:
+      - Dariusz Biernacki
+      - Sergueï Lenglet
+      - Piotr Polesiuk
+  - type: break
+    title: "Coffee Break"
+    start: "14:30"
+    end: "15:00"
+  - type: talks
+    num: 11
+    title: "Invited speaker: B. Pientka"
+    start: "15:00"
+    end: "16:00"
+    chairs:
+    - Delia Kesner
+    talks:
+    - time: "15:00"
+      title: "A Modal Analysis of Metaprogramming"
+      authors:
+      - Brigitte Pientka

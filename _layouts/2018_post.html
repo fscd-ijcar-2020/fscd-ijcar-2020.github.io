@@ -1,0 +1,16 @@
+---
+layout: 2018_default
+---
+
+<div class="event black-frame">
+  <h1>{{ page.title }}</h1>
+  <p>{{ page.date | date_to_long_string }}
+    {% if page.author %}
+    - <em>{{ page.author }}</em>
+    {% endif %}
+  </p>
+
+  {{ content }}
+
+<p><a href="{{ '/news.html' | absolute_url }}">[Back to the main news page.]</a></p>
+</div>

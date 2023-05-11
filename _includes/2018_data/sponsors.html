@@ -1,0 +1,38 @@
+<!-- Clients Aside -->
+
+<aside id="sponsors" class="clients" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Sponsors</h2>
+            </div>
+        </div>
+        {% for list in site.data.conference.sponsors %}
+          {% if list.name %}
+            <div class="row" id="{{ list.name }}">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">{{ list.title }}</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+          {% endif %}
+          {% for sponsor in list.sponsors %}
+            {% assign cols-logo = 2 %}
+            {% if sponsor.cols %}
+            {% assign cols-logo = sponsor-cols %}
+            {% endif %}
+            <div class="col-md-{{ cols-logo }} col-sm-4 speakers-item">
+                <a href="{{ sponsor.link }}" class="portfolio-link" data-toggle="modal">
+                    <!-- <div class="speakers-hover">
+                        <div class="speakers-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div> -->
+                    <img src="{{site.baseurl}}/css/2016_style/img/sponsors/{{ sponsor.logo }}"
+                        class="img-responsive img-centered" alt="{{ sponsor.name }}">
+                </a>
+            </div>
+          {% endfor %}
+        {% endfor %}
+    </div>
+</aside>

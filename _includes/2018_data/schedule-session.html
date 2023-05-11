@@ -1,0 +1,27 @@
+<li class="cd-schedule__group">
+  <div class="cd-schedule__top-info"><span>{{ confname }} {{ track }}</span></div>
+
+  <ul>
+    {% for session in site.data.conference.programs[conf]program[page.daynum].sessions %}
+    {% if session.track == track or track == 'A' and session.track ==  %}
+    <li class="cd-schedule__event">
+      <a data-start="{{ session.start }}"
+         data-end="{{ session.end }}"
+         data-content="sessions/{{ conf }}-session{{ session.num }}{{ session.track }}"
+         data-event="{{ event }}" href="#0">
+        <em class="cd-schedule__name">
+          {{ session.title }}
+        </em>
+        <ul>
+          {% for talk in session.talks %}
+          <li>
+            - {{ talk.time }}: {{ talk.authors | join: ', ' }}
+          </li>
+          {% endfor %}
+        </ul>
+      </a>
+    </li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+</li>

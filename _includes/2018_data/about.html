@@ -1,0 +1,47 @@
+<!-- About Section -->
+<section id="about">
+    <div class="container">
+      {% if site.data.conference.about.intro %}
+        {% if site.data.conference.about.intro.title %}
+          <div class="row">
+              <div class="col-lg-12 text-center">
+                  <h2 class="section-heading">{{site.data.conference.about.intro.title}}</h2>
+              </div>
+          </div>
+        {% endif %}
+        <div class="row container text-content" style="padding-bottom:100px;">
+          {% if site.data.conference.about.intro.content %}
+            {{ site.data.conference.about.intro.content | markdownify }}
+          {% endif %}
+          {% if site.data.conference.about.intro.content-file %}
+            {% include {{site.data.conference.about.intro.content-file}} %}
+          {% endif %}
+        </div>
+      {% endif %}
+      <div class="row">
+          <div class="col-lg-12 text-center">
+              <h2 class="section-heading">{{site.acronym}}</h2>
+          </div>
+      </div>
+      <div class="row container text-content">
+        {{ site.description | markdownify }}
+        <!-- <center><a href="#" class="page-scroll btn btn-xl">Registration Closed</a></center> -->
+
+        {% for section in site.data.conference.about.sections %}
+        <div class="col-md-4">
+          <h2>{{section.title}}</h2>
+
+          <div class="text-content">
+            {% if section.content %}
+              {{ section.content | markdownify }}
+            {% endif %}
+            {% if section.content-file %}
+              {% include {{section.content-file}} %}
+            {% endif %}
+          </div>
+        </div>
+        {% endfor %}
+
+      </div>
+    </div>
+</section>

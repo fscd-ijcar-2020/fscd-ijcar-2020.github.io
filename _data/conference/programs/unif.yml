@@ -1,0 +1,129 @@
+name: UNIF 2020
+program:
+- date: 29/06/20
+  sessions:
+  - chairs:
+    - Temur Kutsia
+    end: '11:00'
+    num: 1
+    start: '09:00'
+    talks:
+    - authors:
+      - "St\xE9phanie Delaune"
+      time: '09:00'
+      title: 'Invited Talk: Rewriting in Protocol Verification'
+    - authors:
+      - Andrew M. Marshall
+      - Catherine Meadows
+      - Paliath Narendran
+      - Veena Ravishankar
+      - Brandon Rozek
+      time: '09:45'
+      title: Algorithmic Problems in Synthesized Cryptosystems
+    - authors:
+      - Serdar Erbatur
+      - Andrew M. Marshall
+      - Christophe Ringeissen
+      time: '10:10'
+      title: Terminating Non-Disjoint Combined Unification
+    - authors:
+      - Paliath Narendran
+      - Ashley Suchy
+      - Yu Zhang
+      time: '10:35'
+      title: Some Results on Prefix Grammars
+    title: 'Session 1: Security and Rewriting'
+    type: talks
+  - end: '11:30'
+    num: 2
+    start: '11:00'
+    title: Virtual coffee break
+    type: break
+  - chairs:
+    - Christophe Ringeissen
+    end: '12:45'
+    num: 3
+    start: '11:30'
+    talks:
+    - authors:
+      - Philippe Balbiani
+      - Cigdem Gencer
+      - Maryam Rostamigiv
+      - Tinko Tinchev
+      time: '11:30'
+      title: About the unification type of modal logic K+[][]false
+    - authors:
+      - David Cerna
+      - Alexander Leitsch
+      - Anela Lolic
+      time: '11:55'
+      title: On the Unification of Term Schemata
+    - authors:
+      - Jean-Pierre Jouannaud
+      - Fernando Orejas
+      time: '12:20'
+      title: Unification of Drags
+    title: 'Session 2: Logic and Discrete Structures'
+    type: talks
+  - end: '14:00'
+    num: 4
+    start: '12:45'
+    title: Lunch break
+    type: break
+  - chairs:
+    - Andrew Marshall
+    end: '15:35'
+    num: 5
+    start: '14:00'
+    talks:
+    - authors:
+      - "Manfred Schmidt-Schau\xDF"
+      time: '14:00'
+      title: 'Invited Talk: Nominal Algorithms: Applications and Extensions'
+    - authors:
+      - Alexander Baumgartner
+      - Daniele Nantes-Sobrinho
+      time: '14:45'
+      title: A,C and AC Nominal Anti-Unification
+    - authors:
+      - Daniele Nantes-Sobrinho
+      - Deivid Vale
+      - "Mauricio Ayala-Rinc\xF3n"
+      - Maribel Fernandez
+      time: '15:10'
+      title: An Investigation into Nominal Equational Problems
+    title: 'Session 3: Nominal Techniques'
+    type: talks
+  - end: '16:00'
+    num: 6
+    start: '15:35'
+    title: Virtual coffee break
+    type: break
+  - chairs:
+    - "Mauricio Ayala-Rinc\xF3n"
+    end: '17:15'
+    num: 7
+    start: '16:00'
+    talks:
+    - authors:
+      - Temur Kutsia
+      - Cleo Pau
+      time: '16:00'
+      title: Proximity-Based Unification with Arity Mismatch
+    - authors:
+      - Thomas Prokosch
+      - "Fran\xE7ois Bry"
+      time: '16:25'
+      title: Unification on the Run
+    - authors:
+      - Paliath Narendran
+      - Saumya Arora
+      - Yu Zhang
+      time: '16:50'
+      title: An Improved Algorithm for Testing Whether a Special String Rewriting
+        System is Confluent
+    title: 'Session 4: Improvements and Generalizations'
+    type: talks
+progurl: http://unif2020.org/#program
+title: unif
+url: http://unif2020.org/

@@ -1,0 +1,103 @@
+name: IFIP WG 1.6
+program:
+- date: 29/06/20
+  sessions:
+- date: 30/06/20
+  sessions:
+  - end: '09:45'
+    num: 1
+    start: '09:00'
+    title: Session 1
+    type: talks
+    talks:
+    - authors:
+      - Carsten Fuhs
+      title: Short presentation
+      time: '09:00'
+    - authors: Discussion
+      title:
+      time: '09:15'
+  - end: '11:00'
+    num: 2
+    start: '10:00'
+    title: Session 2
+    type: talks
+    talks:
+    - authors:
+      - Olivier Hermant
+      title: Report ISR 2020
+      time: '10:00'
+    - authors:
+      - Narciso Marti Oliet
+      title: Reminder ISR 2021
+      time: '10:15'
+    - authors:
+      - Besik Dundua
+      - Temur Kutsia
+      title: Proposal ISR 2022
+      time: '10:30'
+    - authors:
+      - Discussion
+      title:
+      time: '09:45'
+  - end: '11:30'
+    num: 3
+    start: '11:00'
+    title: Virtual cofffe break
+    type: break
+  - end: '12:15'
+    num: 4
+    start: '11:30'
+    title: Session 3
+    type: talks
+    talks:
+    - authors: Jakob Grue Simonsen
+      title: Short presentation
+      time: '11:30'
+    - authors:
+      - Discussion
+      title:
+      time: '11:45'
+  - end: '13:00'
+    num: 4
+    start: '12:15'
+    title: Session 4
+    type: talks
+    talks:
+    - authors: Akihisa Yamada
+      title: Short presentation
+      time: '12:15'
+    - authors:
+      - Discussion
+      title:
+      time: '12:30'
+  - end: '14:00'
+    num: 5
+    start: '13:00'
+    title: Lunch break
+    type: break
+  - end: '15:30'
+    num: 6
+    start: '14:00'
+    title: Business meeting (Restricted to group members)
+    type: talks
+  - end: '17:30'
+    num: 6
+    start: '16:00'
+    title: Session 5
+    type: talks
+    # - authors:
+    #   - Discussion
+    #   title: "New Models for Conferences of Interest to the WG"
+    #   time: '16:00'
+    # - authors:
+    #   - Damiano Mazza
+    #   - Jakob Rehof
+    #   - Jamie Vicary
+    #   - Moshe Vardi
+    #   title: Panel
+    #   time: '16:00'
+progurl: ''
+sessions: ''
+title: pg
+url: https://www21.in.tum.de/~wimmers/proofground/

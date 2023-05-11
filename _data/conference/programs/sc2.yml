@@ -1,0 +1,28 @@
+name:
+program:
+- date: 05/07/20
+  sessions:
+  - start: '14:00'
+    end: '15:30'
+    title: "Joint SMT/SC2 session"
+    chairs:
+    - Konstantin Korovin
+    type: talks
+    talks:
+    - time: '14:00'
+      title: "Computing Tropical Prevarieties with Satisfiability Modulo Theory"
+      authors:
+      - Christoph Lüders
+    - time: '14:30'
+      title: "GeoGebra and the realgeom Reasoning Tool"
+      authors:
+      - Robert Vajda
+        Zoltán Kovács
+    - time: 15:00
+      title: "New Opportunities for the Formal Proof of Computational Real Geometry?"
+      authors:
+      - Erika Abraham
+        James H. Davenport
+        Matthew England
+        Gereon Kremer
+        Zak Tonks

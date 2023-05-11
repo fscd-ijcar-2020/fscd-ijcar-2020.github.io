@@ -1,0 +1,71 @@
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-default-color navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand page-scroll" href="{{ site.data.conference.global.fscd.url }}">
+              <img src="{{ site.data.conference.global.fscd.logo-header | relative-url }}"">
+            </a>
+            <a class="navbar-brand page-scroll" href="{{ site.data.conference.global.ijcar.url }}">
+              <img src="{{ site.data.conference.global.ijcar.logo-header | relative-url }}">
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                {% for menu in site.data.toc %}
+                {% if menu.list %}
+                <li class="nav-item dropdown">
+                    <a class="dropdown-toggle page-scroll" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        {{menu.title}}
+                        <i class="fas fa-angle-down"></i>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        {% for page in menu.list %}
+                          {% if page.title %}
+                            {% if page.url %}
+                              <div><a class="dropdown-item"
+                                href="{{ page.url }}">
+                                <i class="fas fa-angle-right"></i>&nbsp;{{ page.title }}</a></div>
+                            {% elsif page.link %}
+                              <div><a class="dropdown-item"
+                                href="{{ page.link | prepend: site.baseurl }}">
+                                <i class="fas fa-angle-right"></i>&nbsp;{{ page.title }}</a></div>
+                            {% else %}
+                              <div><a class="dropdown-item" style="text-decoration: none;">
+                                {{ page.title }}</a></div>
+                            {% endif %}
+                          {% else %}
+                            <div class="divider"></div>
+                          {% endif %}
+                        {% endfor %}
+                    </div>
+                </li>
+                {% else %}
+                <li>
+                  {% if menu.url %}
+                    <a class="page-scroll" href="{{ menu.url }}">{{menu.title}}</a>
+                  {% elsif menu.link %}
+                    <a class="page-scroll"
+                      href="{{ menu.link | prepend: site.baseurl }}">{{menu.title}}</a>
+                  {% else %}
+                    <a class="page-scroll" href="{{ site.baseurl }}">{{menu.title}}</a>
+                  {% endif %}
+                </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>

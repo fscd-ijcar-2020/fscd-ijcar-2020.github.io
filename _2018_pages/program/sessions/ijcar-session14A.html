@@ -1,0 +1,140 @@
+---
+permalink: /program/sessions/ijcar-session14A
+published: true
+---
+
+<div class="cd-schedule-modal__event-info">
+	<div>
+        <p><strong>Session 14A</strong></p>
+        <p>Chair: Armin Biere</p>
+
+<ul style="list-style-position: outside; list-style: square;">
+<li>
+13:00: <strong>Matthew Hague, Anthony Widjaja Lin, Philipp Ruemmer, Zhilin Wu.</strong>
+<it>Monadic Decomposition in Integer Linear Arithmetic.</it>
+
+            &nbsp;&nbsp;&nbsp;
+            <a data-toggle="collapse"
+                href="#collapseAbstract1" role="button"
+                style="font-size: var(--text-xsm);"
+                aria-expanded="false" aria-controls="collapseAbstract1">
+                See abstract
+            </a>...
+            <div class="collapse" id="collapseAbstract1">
+                <div class="card card-body" style="padding-left:20px">
+        ABSTRACT. Monadic decomposability is a notion of variable independence, which asks whether a given formula in a first-order theory is expressible as a boolean combination of monadic predicates in the theory. Recently, Veanes et al. showed the usefulness of monadic decomposability in the context of SMT
+    (i.e. input formula is quantifier-free), and found various interesting applications including string analysis. Despite these, checking monadic decomposability is undecidable in
+    general. Decidability for certain theories is known (e.g. Presburger
+    Arithmetic, Tarski's Real Closed Field), but there are very few results 
+    regarding their computational complexity.
+    In this paper, we study monadic decomposability of integer linear arithmetic
+    in the setting of SMT.
+    We show that this decision problem is coNP-complete and,
+    when monadically decomposable, a formula admits a decomposition of 
+    exponential size in the worst case. 
+    We provide a new application of our results to
+    string constraint solving with length constraints.
+    We then extend our results to variadic decomposability, 
+    where predicates could admit multiple free variables (in contrast to monadic
+    decomposability). We provide an
+    application to quantifier elimination in integer linear arithmetic where
+    the variables in a block of quantifiers, if independent,
+    could be eliminated with an exponential (instead of the standard 
+    double exponential) blow-up.
+                </div>
+            </div>
+        </li>
+<li>
+13:30: <strong>Marek Baranowski, Shaobo He, Mathias Lechner, Thanh Son Nguyen, Zvonimir Rakamaric.</strong>
+<it>An SMT Theory of Fixed-Point Arithmetic.</it>
+
+            &nbsp;&nbsp;&nbsp;
+            <a data-toggle="collapse"
+                href="#collapseAbstract2" role="button"
+                style="font-size: var(--text-xsm);"
+                aria-expanded="false" aria-controls="collapseAbstract2">
+                See abstract
+            </a>...
+            <div class="collapse" id="collapseAbstract2">
+                <div class="card card-body" style="padding-left:20px">
+        ABSTRACT. Fixed-point arithmetic is a popular alternative to floating-point arithmetic on
+embedded systems. Existing work on the verification of fixed-point programs
+relies on custom formalizations of fixed-point arithmetic, which makes it hard
+to compare the described techniques or reuse the implementations. In this
+paper, we address this issue by proposing and formalizing an SMT theory of
+fixed-point arithmetic. We present an intuitive yet comprehensive syntax of the
+fixed-point theory, and provide formal semantics for it based on rational
+arithmetic.  We also describe two decision procedures for this theory: one based
+on the theory of bit-vectors and the other on the theory of reals. We implement
+the two decision procedures, and evaluate our implementations using existing
+mature SMT solvers on a benchmark suite we created. Finally, we perform a case
+study of using the theory we propose to verify properties of quantized neural
+networks.
+                </div>
+            </div>
+        </li>
+<li>
+14:00: <strong>Andrew Reynolds, Haniel Barbosa, Daniel Larraz, Cesare Tinelli.</strong>
+<it>Scalable Algorithms for Abduction via Enumerative Syntax-Guided Synthesis.</it>
+
+            &nbsp;&nbsp;&nbsp;
+            <a data-toggle="collapse"
+                href="#collapseAbstract3" role="button"
+                style="font-size: var(--text-xsm);"
+                aria-expanded="false" aria-controls="collapseAbstract3">
+                See abstract
+            </a>...
+            <div class="collapse" id="collapseAbstract3">
+                <div class="card card-body" style="padding-left:20px">
+        ABSTRACT. The abduction problem asks whether there exists a predicate that is consistent
+with a given set of axioms that when added to these axioms 
+suffices to entail a goal.
+We propose an approach for solving the abduction problem that is based on
+syntax-guided enumeration in the Satisfiability Modulo Theories (SMT) solver CVC4.
+For scalability, we use a novel algorithm that incrementally constructs
+a solution in disjunctive normal form that is built from enumerated predicates.
+The algorithm can be configured to generate progressively weaker
+and simpler solutions over the course of a run of the algorithm.
+Our approach is fully general and can be applied over any background logic
+that is handled by the underlying SMT solver in our approach.
+Our experiments show our approach compares favorably with other tools
+for abductive reasoning.
+                </div>
+            </div>
+        </li>
+<li>
+14:30: <strong>Emanuele De Angelis, Fabio Fioravanti, Alberto Pettorossi, Maurizio Proietti.</strong>
+<it>Removing Algebraic Data Types from Constrained Horn Clauses Using Difference Predicates.</it>
+
+            &nbsp;&nbsp;&nbsp;
+            <a data-toggle="collapse"
+                href="#collapseAbstract4" role="button"
+                style="font-size: var(--text-xsm);"
+                aria-expanded="false" aria-controls="collapseAbstract4">
+                See abstract
+            </a>...
+            <div class="collapse" id="collapseAbstract4">
+                <div class="card card-body" style="padding-left:20px">
+        ABSTRACT. We address the problem of proving the satisfiability of 
+Constrained Horn Clauses (CHCs) with Algebraic Data Types (ADTs), 
+such as lists and trees.
+We propose a technique that transforms sets of CHCs with 
+ADTs into CHCs where predicates are defined over basic types, such as
+integers and booleans, only.
+We show that if the set of transformed clauses is satisfiable, 
+then so is the set of the original clauses.
+Thus, our technique avoids the explicit use of inductive proof rules
+during satisfiability proofs.
+The main extension over previous techniques is that the transformation
+automatically generates new predicates corresponding to the lemmata
+that are often needed by inductive proofs.
+By an experimental evaluation, 
+we show that our approach is competitive with respect to techniques that
+extend CHC solving with induction.
+                </div>
+            </div>
+        </li>
+</ul>
+
+    </div>
+</div>

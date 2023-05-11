@@ -1,0 +1,600 @@
+title: "ijcar"
+name: "IJCAR 2020"
+url: "https://ijcar2020.org"
+progurl: "https://easychair.org/smart-program/IJCAR2020/"
+program:
+- date: 01/07/20
+  sessions:
+  - type: generic
+    num: 1
+    title: "FSCD-IJCAR Invited Speaker: R. Thiemann (all times are in CEST timezone - UTC+2)"
+    start: "11:30"
+    end: "12:30"
+  - type: talks
+    num: 2
+    track: A
+    title: "Superposition and Saturation-Based Theorem Proving"
+    start: "13:00"
+    end: "15:00"
+    chairs:
+    - Martin Suda
+    talks:
+    - time: "13:00"
+      title: "Subsumption Demodulation in First-Order Theorem Proving"
+      authors:
+      - Bernhard Gleiss
+      - Laura Kovacs
+      - Jakob Rath
+    - time: "13:30"
+      title: "A Knuth-Bendix-Like Ordering for Orienting Combinator Equations"
+      authors:
+      - Ahmed Bhayat
+      - Giles Reger
+    - time: "14:00"
+      title: "A Comprehensive Framework for Saturation Theorem Proving"
+      authors:
+      - Uwe Waldmann
+      - Sophie Tourret
+      - Simon Robillard
+      - Jasmin Blanchette
+    - time: "14:30"
+      title: "A Combinator-Based Superposition Calculus for Higher-Order Logic"
+      authors:
+      - Ahmed Bhayat
+      - Giles Reger
+  - type: talks
+    num: 2
+    track: B
+    title: "Interactive Theorem Proving"
+    start: "13:00"
+    end: "15:00"
+    chairs:
+    - Jeremy Avigad
+    talks:
+    - time: "13:00"
+      title: "Competing Inheritance Paths in Dependent Type Theory: a Case Study in Functional Analysis"
+      authors:
+      - Reynald Affeldt
+      - Cyril Cohen
+      - Marie Kerjean
+      - Assia Mahboubi
+      - Damien Rouhling
+      - Kazuhiko Sakaguchi
+    - time: "13:30"
+      title: "Quotients of Bounded Natural Functors"
+      authors:
+      - Basil Fürer
+      - Andreas Lochbihler
+      - Joshua Schneider
+      - Dmitriy Traytel
+    - time: "14:00"
+      title: "Extensible Extraction of Efficient Imperative Programs with Foreign Functions, Manually Managed Memory, and Proofs"
+      authors:
+      - Clément Pit-Claudel
+      - Peng Wang
+      - Benjamin Delaware
+      - Jason Gross
+      - Adam Chlipala
+    - time: "14:30"
+      title: "Beyond Notations: Hygienic Macro Expansion for Theorem Proving Languages"
+      authors:
+      - Sebastian Ullrich
+      - Leonardo de Moura
+  - type: talks
+    num: 3
+    title: "Invited IJCAR-FSCD Talk: J. Harrison"
+    start: "15:15"
+    end: "16:15"
+    chairs:
+    - Josef Urban
+    talks:
+    - time: "15:15"
+      title: "Adventures in Verifying Arithmetic"
+      authors:
+      - John Harrison
+  - type: talks
+    num: 4
+    track: A
+    title: "Machine Learning and Theory Reasoning"
+    start: "16:45"
+    end: "17:45"
+    chairs:
+    - Geoff Sutcliffe
+    talks:
+    - time: "16:45"
+      title: "ENIGMA Anonymous: Symbol-Independent Inference Guiding Machine (system description)"
+      authors:
+      - Jan Jakubuv
+      - Karel Chvalovský
+      - Miroslav Olšák
+      - Bartosz Piotrowski
+      - Martin Suda
+      - Josef Urban
+    - time: "17:00"
+      title: "Prolog Technology Reinforcement Learning Prover (system description)"
+      authors:
+      - Zsolt Zombori
+      - Josef Urban
+    - time: "17:15"
+      title: "Layered Clause Selection for Theory Reasoning (short paper)"
+      authors:
+      - Bernhard Gleiss
+      - Martin Suda
+    - time: "17:30"
+      title: "Make E Smart Again (short paper)"
+      authors:
+      - Zarathustra Goertzel
+  - type: talks
+    num: 4
+    track: B
+    title: "Formalizing Non Classical Logics"
+    start: "16:45"
+    end: "18:00"
+    chairs:
+    - Andrei Popescu
+    talks:
+    - time: "16:45"
+      title: "Mechanised Modal Model Theory"
+      authors:
+      - Yiming Xu
+      - Michael Norrish
+    - time: "17:15"
+      title: "Formalizing a Seligman-Style Tableau System for Hybrid Logic (short paper)"
+      authors:
+      - Asta Halkjær From
+      - Patrick Blackburn
+      - Jørgen Villadsen
+    - time: "17:30"
+      title: "A Formally Verified, Optimized Monitor for Metric First-Order Dynamic Logic"
+      authors:
+      - David Basin
+      - Thibault Dardinier
+      - Lukas Heimes
+      - Srdjan Krstic
+      - Martin Raszyk
+      - Joshua Schneider
+      - Dmitriy Traytel
+- date: 02/07/20
+  sessions:
+  - type: generic
+    num: 5
+    title: "Start of CASC"
+    start: "12:30"
+    end: "12:45"
+  - type: talks
+    num: 6
+    track: A
+    title: "SAT, SMT and QBF"
+    start: "13:00"
+    end: "15:00"
+    chairs:
+    - Roberto Sebastiani
+    talks:
+    - time: "13:00"
+      title: "The Resolution of Keller's Conjecture"
+      authors:
+      - Joshua Brakensiek
+      - Marijn Heule
+      - John Mackey
+      - David Narvaez
+    - time: "13:30"
+      title: "How QBF Expansion Makes Strategy Extraction Hard"
+      authors:
+      - Leroy Chew
+      - Judith Clymo
+    - time: "14:00"
+      title: "Covered Clauses Are Not Propagation Redundant"
+      authors:
+      - Lee A. Barnett
+      - David Cerna
+      - Armin Biere
+    - time: "14:30"
+      title: "Solving bit-vectors with MCSAT: explanations from bits and pieces"
+      authors:
+      - Stéphane Graham-Lengrand
+      - Dejan Jovanović
+      - Bruno Dutertre
+  - type: talks
+    num: 6
+    track: B
+    title: "Isabelle"
+    start: "13:00"
+    end: "15:00"
+    chairs:
+    - Lawrence Paulson
+    talks:
+    - time: "13:00"
+      title: "Reasoning about Algebraic Structures with Implicit Carriers in Isabelle/HOL"
+      authors:
+      - Walter Guttmann
+    - time: "13:30"
+      title: "Algebraically Closed Fields in Isabelle/HOL"
+      authors:
+      - Paulo Emílio de Vilhena
+      - Lawrence Paulson
+    - time: "14:00"
+      title: "Verifying Faradžev-Read type Isomorph-Free Exhaustive Generation"
+      authors:
+      - Filip Maric
+    - time: "14:30"
+      title: "Formalization of Forcing in Isabelle/ZF"
+      authors:
+      - Emmanuel Gunther
+      - Miguel Pagano
+      - Pedro Sánchez Terraf
+  - type: talks
+    num: 7
+    title: "Invited Talk: E. Pimentel"
+    start: "15:15"
+    end: "16:15"
+    chairs:
+    - Serenella Cerrito
+    talks:
+    - time: "15:15"
+      title: "Focusing, axioms and synthetic inference rules (extended abstract)"
+      authors:
+      - Elaine Pimentel
+      - Sonia Marin
+      - Dale Miller
+      - Marco Volpe
+  - type: talks
+    num: 8
+    track: A
+    title: "Non Classical Logics"
+    start: "16:30"
+    end: "18:30"
+    chairs:
+    - Silvio Ghilardi
+    talks:
+    - time: "16:30"
+      title: "Soft subexponentials and multiplexing"
+      authors:
+      - Max Kanovich
+      - Stepan Kuznetsov
+      - Vivek Nigam
+      - Andre Scedrov
+    - time: "17:00"
+      title: "Description Logics with Concrete Domains and General Concept Inclusions Revisited"
+      authors:
+      - Franz Baader
+      - Jakub Rydval
+    - time: "17:30"
+      title: "Constructive Hybrid Games"
+      authors:
+      - Brandon Bohrer
+      - André Platzer
+    - time: "18:00"
+      title: "NP Reasoning in the Monotone mu-Calculus"
+      authors:
+      - Daniel Hausmann
+      - Lutz Schröder
+  - type: talks
+    num: 8
+    track: B
+    title: "Reasoning Systems, Tactics and Tools"
+    start: "16:30"
+    end: "18:00"
+    chairs:
+    - Jens Otten
+    talks:
+    - time: "16:30"
+      title: "A Programmer’s Text Editor for a Logical Theory: The SUMOjEdit Editor (system description)"
+      authors:
+      - Adam Pease
+    - time: "16:45"
+      title: "Sequoia: a playground for logicians (system description)"
+      authors:
+      - Giselle Reis
+      - Zan Naeem
+      - Mohammed Hashim
+    - time: "17:00"
+      title: "HYPNO: Theorem Proving with Hypersequent Calculi for Non-Normal Modal Logics (system description)"
+      authors:
+      - Tiziano Dalmonte
+      - Nicola Olivetti
+      - Gian Luca Pozzato
+    - time: "17:15"
+      title: "Moin: A Nested Sequent Theorem Prover for Intuitionistic Modal Logics (system description)"
+      authors:
+      - Marianna Girlando
+      - Lutz Straßburger
+    - time: "17:30"
+      title: "A Lean tactic for normalising ring expressions with exponents (short paper)"
+      authors:
+      - Anne Baanen
+    - time: "17:45"
+      title: "Logic-Independent Proof Search in Logical Frameworks (short paper)"
+      authors:
+      - Michael Kohlhase
+      - Florian Rabe
+      - Claudio Sacerdoti Coen
+      - Jan Frederik Schaefer
+  - type: generic
+    num: 9
+    title: "Business Meetings (IJCAR, FROCOS, TABLEAUX, CADE)"
+    start: "18:30"
+    end: "20:00"
+- date: 03/07/20
+  sessions:
+  - type: talks
+    num: 10
+    track: A
+    title: "Proof Procedures, Decision Procedures and Combination of Theories"
+    start: "13:00"
+    end: "15:00"
+    chairs:
+    - Cláudia Nalon
+    talks:
+    - time: "13:00"
+      title: "Politeness for The Theory of Algebraic Datatypes"
+      authors:
+      - Ying Sheng
+      - Yoni Zohar
+      - Christophe Ringeissen
+      - Jane Lange
+      - Pascal Fontaine
+      - Clark Barrett
+    - time: "13:30"
+      title: "Combined Covers and Beth Definability"
+      authors:
+      - Diego Calvanese
+      - Silvio Ghilardi
+      - Alessandro Gianola
+      - Marco Montali
+      - Andrey Rivkin
+    - time: "14:00"
+      title: "Possible Models Computation and Revision - A Practical Approach"
+      authors:
+      - Peter Baumgartner
+    - time: "14:30"
+      title: "SGGS Decision Procedures"
+      authors:
+      - Maria Paola Bonacina
+      - Sarah Winkler
+  - type: talks
+    num: 10
+    track: B
+    title: "Coq"
+    start: "13:00"
+    end: "15:00"
+    chairs:
+    - Leonardo de Moura
+    talks:
+    - time: "13:00"
+      title: "Practical proof search for Coq by type inhabitation"
+      authors:
+      - Lukasz Czajka
+    - time: "13:30"
+      title: "Formalizing the Face Lattice of Polyhedra"
+      authors:
+      - Xavier Allamigeon
+      - Ricardo David Katz
+      - Pierre-Yves Strub
+    - time: "14:00"
+      title: "Trakhtenbrot's Theorem in Coq"
+      authors:
+      - Dominik Kirst
+      - Dominique Larchey-Wendling
+    - time: "14:30"
+      title: "Deep Generation of Coq Lemma Names Using Elaborated Terms"
+      authors:
+      - Pengyu Nie
+      - Karl Palmskog
+      - Junyi Jessy Li
+      - Milos Gligoric
+  - type: talks
+    num: 11
+    title: "Invited Talk: R. Piskac"
+    start: "15:15"
+    end: "16:15"
+    chairs:
+    - Laura Kovacs
+    talks:
+    - time: "15:15"
+      title: "Efficient Automated Reasoning about Sets and Multisets with Cardinality Constraints"
+      authors:
+      - Ruzica Piskac
+  - type: talks
+    num: 12
+    track: A
+    title: "Formalization"
+    start: "16:30"
+    end: "17:30"
+    chairs:
+    - Andreas Lochbihler
+    talks:
+    - time: "16:30"
+      title: "Validating Mathematical Structures"
+      authors:
+      - Kazuhiko Sakaguchi
+    - time: "17:00"
+      title: "Formal Proof of the Group Law for Edwards Elliptic Curves"
+      authors:
+      - Thomas Hales
+      - Rodrigo Raya
+  - type: talks
+    num: 12
+    track: B
+    title: "Decision Procedures, Rewriting and Model Checking"
+    start: "16:30"
+    end: "18:30"
+    chairs:
+    - Jürgen Giesl
+    talks:
+    - time: "16:30"
+      title: "Deciding the Word Problem for Ground Identities with Commutative and Extensional Symbols"
+      authors:
+      - Franz Baader
+      - Deepak Kapur
+    - time: "17:00"
+      title: "A Decision Procedure for String to Code Point Conversion"
+      authors:
+      - Andrew Reynolds
+      - Andres Noetzli
+      - Clark Barrett
+      - Cesare Tinelli
+    - time: "17:30"
+      title: "mu-term: Verify Termination Properties Automatically (system description)"
+      authors:
+      - Raúl Gutiérrez
+      - Salvador Lucas
+    - time: "17:45"
+      title: "Automatically Proving and Disproving Feasibility Conditions"
+      authors:
+      - Raúl Gutiérrez
+      - Salvador Lucas
+    - time: "18:15"
+      title: "N-PAT: A Nested Model-Checker (system description)"
+      authors:
+      - Hadrien Bride
+      - Cheng-Hao Cai
+      - Jin Song Dong
+      - Rajeev Gore
+      - Zhe Hou
+      - Brendan Mahony
+      - Jim McCarthy
+- date: 04/07/20
+  sessions:
+  - type: talks
+    num: 13
+    track: A
+    title: "Satisfiability Modulo Theories"
+    start: "13:00"
+    end: "15:00"
+    chairs:
+    - Armin Biere
+    talks:
+    - time: "13:00"
+      title: "Monadic Decomposition in Integer Linear Arithmetic"
+      authors:
+      - Matthew Hague
+      - Anthony Widjaja Lin
+      - Philipp Ruemmer
+      - Zhilin Wu
+    - time: "13:30"
+      title: "An SMT Theory of Fixed-Point Arithmetic"
+      authors:
+      - Marek Baranowski
+      - Shaobo He
+      - Mathias Lechner
+      - Thanh Son Nguyen
+      - Zvonimir Rakamaric
+    - time: "14:00"
+      title: "Scalable Algorithms for Abduction via Enumerative Syntax-Guided Synthesis"
+      authors:
+      - Andrew Reynolds
+      - Haniel Barbosa
+      - Daniel Larraz
+      - Cesare Tinelli
+    - time: "14:30"
+      title: "Removing Algebraic Data Types from Constrained Horn Clauses Using Difference Predicates"
+      authors:
+      - Emanuele De Angelis
+      - Fabio Fioravanti
+      - Alberto Pettorossi
+      - Maurizio Proietti
+  - type: talks
+    num: 13
+    track: B
+    title: "Verification"
+    start: "13:00"
+    end: "15:00"
+    chairs:
+    - Andreas Lochbihler
+    talks:
+    - time: "13:00"
+      title: "Efficient Verified Implementation of Introsort and Pdqsort"
+      authors:
+      - Peter Lammich
+    - time: "13:30"
+      title: "A Fast Verified Liveness Analysis in SSA form"
+      authors:
+      - Jean-Christophe Léchenet
+      - Sandrine Blazy
+      - David Pichardie
+    - time: "14:00"
+      title: "Verified Approximation Algorithms"
+      authors:
+      - Robin Eßmann
+      - Tobias Nipkow
+      - Simon Robillard
+    - time: "14:30"
+      title: "Verification of Closest Pair of Points Algorithms"
+      authors:
+      - Martin Rau
+      - Tobias Nipkow
+  - type: talks
+    num: 14
+    title: "Invited Talk: C.Barrett"
+    start: "15:15"
+    end: "16:15"
+    chairs:
+    - Pascal Fontaine
+    talks:
+    - time: "15:15"
+      title: "Domain-Specific Reasoning with Satisfiability Modulo Theories"
+      authors:
+      - Clark Barrett
+  - type: talks
+    num: 15
+    track: A
+    title: "Results of Competitions, Reasoning Systems"
+    start: "16:30"
+    end: "18:00"
+    chairs:
+    - Andrew Reynolds
+    talks:
+    - time: "16:30"
+      title: "Termination Competition"
+      authors:
+      - Jürgen Giesl
+    - time: "16:45"
+      title: "The CADE ATP System Competition Presentation"
+      authors:
+      - Geoff Sutcliffe
+    - time: "17:00"
+      title: "A Polymorphic Vampire (short paper)"
+      authors:
+      - Ahmed Bhayat
+      - Giles Reger
+    - time: "17:15"
+      title: "Implementing superposition in iProver (system description)"
+      authors:
+      - André Duarte
+      - Konstantin Korovin
+    - time: "17:30"
+      title: "Teaching Automated Theorem Proving by Example: PyRes 1.2 (system description)"
+      authors:
+      - Stephan Schulz
+      - Adam Pease
+    - time: "17:45"
+      title: "The Imandra Automated Reasoning System (system description)"
+      authors:
+      - Grant Passmore
+      - Simon Cruanes
+      - Denis Ignatovich
+      - David Aitken
+      - Matthew Bray
+      - Elijah Kagan
+      - Konstantin Kanishev
+      - Ewen Maclean
+      - Nicola Mometto
+  - type: talks
+    num: 15
+    track: B
+    title: "Induction, co-Induction and Infinity Axioms"
+    start: "16:30"
+    end: "17:30"
+    chairs:
+    - Dale Miller
+    talks:
+    - time: "16:30"
+      title: "Deciding Simple Infinity Axiom Sets with one Binary Relation by Superpostulates"
+      authors:
+      - Timm Lampert
+      - Anderson Nakano
+    - time: "17:00"
+      title: "Integrating Induction and Coinduction via Closure Operators and Proof Cycles"
+      authors:
+      - Liron Cohen
+      - Reuben Rowe

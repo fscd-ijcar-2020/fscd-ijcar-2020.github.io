@@ -1,0 +1,148 @@
+<!-- <table class="table" style="text-align:center;">
+  <tbody>
+    {% for color in site.data.colors.yellowgreen %}
+    <tr><td bgcolor="{{ color }}">color</td></tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<table class="table" style="text-align:center;">
+  <tbody>
+    {% for color in site.data.colors.blue %}
+    <tr><td bgcolor="{{ color }}">color</td></tr>
+    {% endfor %}
+  </tbody>
+</table> -->
+
+{% assign pre_two = site.data.conference.workshops.pre-two.list %}
+{% assign pre_fst = site.data.conference.workshops.pre-fst.list %}
+{% assign pre_snd = site.data.conference.workshops.pre-snd.list %}
+{% assign post_two = site.data.conference.workshops.post-two.list %}
+{% assign post_fst = site.data.conference.workshops.post-fst.list %}
+{% assign nrows = pre_fst.size | at_least: pre_snd.size | plus: pre_two.size %}
+{% assign nrows1 = nrows | divided_by: 2 %}
+{% assign nrows2 = nrows | minus: nrows1 %}
+
+<!-- empty span to avoid fixed header cover first lines -->
+<span id="schedule"
+      style="margin-top: -100px; padding-bottom: 100px; display: block;">
+</span>
+<table class="table" style="text-align:center">
+  <thead bgcolor="lightgray">
+    <tr>
+      <th scope="col" width="16%" style="text-align:center">29 June</th>
+      <th scope="col" width="16%" style="text-align:center">30 June</th>
+      <th scope="col" style="text-align:center">1-4 July</th>
+      <th scope="col" width="16%" style="text-align:center">5 july</th>
+      <th scope="col" width="16%" style="text-align:center">6 july</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% assign lastind = nrows | minus: 1 %}
+    {% for i in (0..lastind) %}
+    <tr>
+      {% if i < pre_two.size  %}
+        {% if pre_two[i].main_conf == "FSCD" %}
+          {% assign color = site.data.conference.global.fscd.wscolor %}
+        {% else %}
+          {% assign color = site.data.conference.global.ijcar.wscolor %}
+        {% endif %}
+        <td colspan=2 >
+          <a class="btn btn-block" type="button"
+              style="background-color:{{ color }}"
+              href="#{{ pre_two[i].acronym }}">
+            {{ pre_two[i].acronym }}
+          </a>
+        </td>
+      {% else %}
+        {% assign j = i | minus: pre_two.size %}
+        {% if j < pre_fst.size %}
+          {% if pre_fst[j].main_conf == "FSCD" %}
+            {% assign color = site.data.conference.global.fscd.wscolor %}
+          {% else %}
+            {% assign color = site.data.conference.global.ijcar.wscolor %}
+          {% endif %}
+          <td>
+            <a class="btn btn-block" type="button"
+                style="background-color:{{ color }}"
+                href="#{{ pre_fst[j].acronym }}">
+              {{ pre_fst[j].acronym }}
+            </a>
+          </td>
+        {% else %}
+          <td></td>
+        {% endif %}
+        {% if j < pre_snd.size %}
+          {% if pre_snd[j].main_conf == "FSCD" %}
+            {% assign color = site.data.conference.global.fscd.wscolor %}
+          {% else %}
+            {% assign color = site.data.conference.global.ijcar.wscolor %}
+          {% endif %}
+          <td>
+            <a class="btn btn-block" type="button"
+                style="background-color:{{ color }}"
+                href="#{{ pre_snd[j].acronym }}">
+              {{ pre_snd[j].acronym }}
+            </a>
+          </td>
+        {% else %}
+          <td></td>
+        {% endif %}
+      {% endif %}
+      {% if i == 0 %}
+        <td rowspan={{ nrows1 }}>
+          <a class="btn btn-block" type="button"
+            style="background-color:{{ site.data.conference.global.fscd.color }};"
+            href= {{ site.data.conference.global.fscd.url-2020 }}>
+            FSCD
+          </a>
+          <!-- <button class="btn btn-block">IJCAR</button> -->
+        </td>
+      {% elsif i == nrows1 %}
+        <td rowspan={{ nrows2 }}>
+          <a class="btn btn-block" type="button"
+            style="background-color:{{ site.data.conference.global.ijcar.color }};"
+            href= {{ site.data.conference.global.ijcar.url-2020 }}>
+            IJCAR
+          </a>
+          <!-- <button class="btn btn-block">IJCAR</button> -->
+        </td>
+      {% endif %}
+      {% if i < post_two.size  %}
+        {% if post_two[i].main_conf == "FSCD" %}
+          {% assign color = site.data.conference.global.fscd.wscolor %}
+        {% else %}
+          {% assign color = site.data.conference.global.ijcar.wscolor %}
+        {% endif %}
+        <td colspan=2>
+          <a class="btn btn-block" type="button"
+              style="background-color:{{ color }}"
+              href="#{{ post_two[i].acronym }}">
+            {{ post_two[i].acronym }}
+          </a>
+        </td>
+      {% else %}
+        {% assign j = i | minus: post_two.size %}
+        {% if j < post_fst.size %}
+          {% if post_fst[j].main_conf == "FSCD" %}
+            {% assign color = site.data.conference.global.fscd.wscolor %}
+          {% else %}
+            {% assign color = site.data.conference.global.ijcar.wscolor %}
+          {% endif %}
+          <td>
+            <a class="btn btn-block" type="button"
+                style="background-color:{{ color }}"
+                href="#{{ post_fst[j].acronym }}">
+              {{ post_fst[j].acronym }}
+            </a>
+          </td>
+          <td></td>
+        {% else %}
+          <td></td>
+          <td></td>
+        {% endif %}
+      {% endif %}
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>

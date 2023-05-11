@@ -1,0 +1,38 @@
+name: Proof Ground
+program:
+- date: 29/06/20
+  sessions:
+  - end: '10:30'
+    num: 1
+    start: '09:30'
+    title: Intro and Q&A. Competition Preparation
+    type: talks
+  - end: '12:30'
+    num: 2
+    start: '10:30'
+    title: Competition I
+    type: talks
+  - end: '14:00'
+    num: 3
+    start: '12:30'
+    title: Lunch/Open Discussion
+    type: break
+  - end: '15:30'
+    num: 4
+    start: '14:00'
+    title: Competition II
+    type: talks
+  - end: '16:00'
+    num: 5
+    start: '15:30'
+    title: Coffee Break/Open Discussion
+    type: break
+  - end: '17:00'
+    num: 6
+    start: '16:00'
+    title: Results & Plenary Discussion
+    type: talks
+progurl: ''
+sessions: ''
+title: pg
+url: https://www21.in.tum.de/~wimmers/proofground/

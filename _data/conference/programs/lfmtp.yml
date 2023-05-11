@@ -1,0 +1,107 @@
+name: LFMTP 2020
+program:
+- date: 29/30/20
+  sessions:
+  - chairs:
+    - Claudio Sacerdoti Coen
+    - Alwen Tiu
+    end: '09:30'
+    num: 1
+    start: '09:15'
+    talks:
+    - authors:
+      - Claudio Sacerdoti Coen
+      - Alwen Tiu
+      time: '09:15'
+      title: 'Opening: welcome message by the Chairs & a brief overview of house rules'
+    title: Opening
+    type: talks
+  - chairs:
+    - "Dennis M\xFCller"
+    end: '11:00'
+    num: 2
+    start: '09:30'
+    talks:
+    - authors:
+      - Caitlin D'Abrera
+      - Rajeev Gore
+      time: '9:30'
+      title: Verified Synthesis of (Very Simple) Sahlqvist Correspondents via Coq
+    - authors:
+      - Petros Papapanagiotou
+      - Jacques Fleuriot
+      time: '10:00'
+      title: Object-level reasoning with logics encoded in HOL Light
+    - authors:
+      - Navid Roux
+      - Florian Rabe
+      time: '10:30'
+      title: Diagram Operators in a Logical Framework
+    title: Formalising logics
+    type: talks
+  - chairs:
+    - Alwen Tiu
+    end: '15:30'
+    num: 3
+    start: '14:00'
+    talks:
+    - authors:
+      - Elaine Pimentel
+      time: '14:00'
+      title: A fresh view of linear logic as a logical framework
+    - authors:
+      - Roberto Blanco
+      - Dale Miller
+      - Alberto Momigliano
+      time: '15:00'
+      title: 'On the Proof Theory of Property-Based Testing of Coinductive Specifications,
+        or: PBT to Infinity and beyond'
+    title: Proof theory
+    type: talks
+- date: 30/06/20
+  sessions:
+  - chairs:
+    - TBA
+    end: '11:00'
+    num: 4
+    start: '9:30'
+    talks:
+    - authors:
+      - Roberto Blanco
+      - Matteo Manighetti
+      - Dale Miller
+      time: '09:30'
+      title: 'Linking a lambda Prolog proof checker to the Coq kernel: An extended
+        abstract'
+    - authors:
+      - Gabriel Hondet
+      time: '10:00'
+      title: Expressing Predicate Sub-Typing in Lambda Pi Modulo Theory
+    - authors:
+      - Arve Gengelbach
+      - Tjark Weber
+      time: '10:30'
+      title: Model-theoretic Conservative Extension for HOL with Ad-hoc Overloading
+    title: Proof assistants and proof certificates
+    type: talks
+  - chairs:
+    - Claudio Sacerdoti Coen
+    end: '15:30'
+    num: 5
+    start: '14:00'
+    talks:
+    - authors:
+      - Supernominal Datatypes and Codatatypes
+      time: '14:00'
+      title: Andrei Popescu
+    - authors:
+      - Jacob Errington
+      - Junyoung Jang
+      - Brigitte Pientka
+      time: '15:00'
+      title: Mechanizing Metatheory Interactively
+    title: Nominal datatypes and mechanizing metatheory
+    type: talks
+progurl: https://lfmtp.org/workshops/2020/program.shtml
+title: lfmtp
+url: https://lfmtp.org/workshops/2020/home.shtml

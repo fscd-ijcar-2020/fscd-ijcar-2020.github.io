@@ -1,0 +1,113 @@
+name: WPTE 2020
+program:
+- date: 29/06/20
+  sessions:
+  - chairs:
+    - "Adri\xE1n Riesco"
+    end: '11:00'
+    num: 1
+    start: '09:30'
+    talks:
+    - authors:
+      - "H\xE9l\xE8ne Kirchner"
+      time: '09:30'
+      title: What can we learn from the Porgy experience?
+    title: "Session 1: WPTE Invited Speaker: H\xE9l\xE8ne Kirchner"
+    type: talks
+  - end: '11:30'
+    num: 2
+    start: '11:00'
+    title: Virtual coffee break
+    type: break
+  - chairs:
+    - "Adri\xE1n Riesco"
+    end: '13:00'
+    num: 3
+    start: '11:30'
+    talks:
+    - authors:
+      - Misaki Kojima
+      - Naoki Nishida
+      - Yutaka Matsubara
+      time: '11:30'
+      title: Transforming Concurrent Programs with Semaphores into Logically Constrained
+        Term Rewrite Systems
+    - authors:
+      - Akimasa Morihata
+      time: '12:00'
+      title: Short Cut to Incremental Typed Functional Programs
+    - authors:
+      - Martin Mariusz Lester
+      time: '13:30'
+      title: Program Transformations Enable Verification Tools to Solve Interactive
+        Fiction Games
+    title: Session 2
+    type: talks
+  - end: '14:00'
+    num: 4
+    start: '13:00'
+    title: Lunch break
+    type: break
+  - chairs:
+    - "Adri\xE1n Riesco"
+    end: '15:30'
+    num: 5
+    start: '14:00'
+    talks:
+    - authors:
+      - "Mar\xEDa Alpuente"
+      - Demis Ballis
+      - Santiago Escobar
+      - "Julia Sapi\xF1a"
+      time: '14:00'
+      title: Narrowing-based Optimization of Rewriting Logic Theories
+    - authors:
+      - Irina Mariuca Asavoae
+      - Ramtine Tofighi Shirazi
+      - Adrian Riesco
+      - Uemura Yasuyoshi
+      time: '14:30'
+      title: Hardware Trojan Detection via Rewriting Logic
+    - authors:
+      - Horatiu Cirstea
+      - Pierre Lermusiaux
+      - Pierre-Etienne Moreau
+      time: '15:00'
+      title: Preservation of Pattern-free Properties for Constructor TRS
+    title: Session 3
+    type: talks
+  - end: '16:00'
+    num: 6
+    start: '15:30'
+    title: Virtual coffee break
+    type: break
+  - chairs:
+    - "Julia Sapi\xF1a"
+    end: '17:30'
+    num: 7
+    start: '16:00'
+    talks:
+    - authors:
+      - "Rub\xE9n Rubio"
+      - Narciso Marti-Oliet
+      - Isabel Pita
+      - Alberto Verdejo
+      time: '16:00'
+      title: Metalevel transformation of strategies
+    - authors:
+      - "Rub\xE9n Rubio"
+      - Narciso Marti-Oliet
+      - Isabel Pita
+      - Alberto Verdejo
+      time: '16:30'
+      title: Simulating and model checking membrane systems using strategies in Maude
+    - authors:
+      - Manfred Schmidt-Schauss
+      - David Sabel
+      time: '17:00'
+      title: On Impossibility of Simple Translations of Concurrent Calculi
+    title: Session 4
+    type: talks
+progurl: http://maude.ucm.es/wpte20/
+title: wpte
+url: http://maude.ucm.es/wpte20/

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+{% include 2018_data/head.html %}
+
+
+<body id="page-top" class="index">
+
+    {% include 2018_data/header-home.html %}
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-heading">
+                    {{site.title}}<br>
+                    <h2>{{site.acronym}}</h2>
+                </div>
+                <div class="intro-lead-in">{{site.dates}}</div>
+                <div class="intro-lead-in">{{site.place}}</div>
+                {% if site.co-located %}
+                <div class="intro-heading">Co-located with {{ site.co-located}}</div>
+                {% endif %}
+                <center>
+                  <a href="/register" class="page-scroll btn btn-xl">Register</a>
+                  <a href="/streaming/diaporama" class="page-scroll btn btn-xl">Streaming</a>
+                </center>
+                <div class="alert-warning col-md-10 col-md-offset-1" role="alert" align="center"
+                      style="margin-top:20px;">
+                  <h2>Virtualisation of FSCD and IJCAR 2020</h2>
+                  <p>
+                    The 2020 editions of IJCAR and FSCD, and of their satellite workshops
+                    will be held online.
+                    Participation will be free, but a
+                    preregistration will be required to join the video
+                    meetings of the events.
+                    A live streaming of the events is available on the site.
+                    <!-- <br />
+                    <a href="{{ site.baseurl }}/2020/04/01/Registration/" class="alert-link">
+                      [Read more...]
+                    </a> -->
+                  </p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    {% include 2018_data/about.html %}
+    {% comment %}
+    {% include 2018_data/speakers.html %}
+    {% endcomment %}
+    {% include 2018_data/sponsors.html %}
+    {% include 2018_data/contact.html %}
+    {% include 2018_data/footer.html %}
+    {% comment %}
+    {% include 2018_data/speakers_info.html %}
+    {% endcomment %}
+    {% include 2018_data/js.html %}
+
+</body>
+
+</html>

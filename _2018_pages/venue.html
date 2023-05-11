@@ -1,0 +1,31 @@
+---
+layout: 2018_default
+permalink: /venue
+title: Venue
+published: true
+API_KEY: AIzaSyDOIY8dyMGzRjtQa97qqRMGZuN4e_zJ4iY
+query: Front Populaire, Aubervilliers
+---
+    <!--background color-->
+    <script type="text/javascript">
+        document.write ('<body style="background: Gainsboro; background-attachment: fixed;">')
+    </script>
+
+    <div class="event black-frame">
+      <h1>{{ page.title }}</h1>
+
+      <!-- <p>Date<br>Venue</p> -->
+
+    <div class="venue-map">
+      <iframe src="https://www.google.com/maps/embed/v1/place?key={{ page.API_KEY }}&q={{ page.query }}" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+
+    <h2>Address</h2>
+
+    {{ site.data.conference.venue.address | newline_to_br }}
+
+    <h2>Directions</h2>
+
+    {{ site.data.conference.venue.directions | markdownify }}
+
+    </div>

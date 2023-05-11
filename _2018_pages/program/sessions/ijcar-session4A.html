@@ -1,0 +1,86 @@
+---
+permalink: /program/sessions/ijcar-session4A
+published: true
+---
+
+<div class="cd-schedule-modal__event-info">
+	<div>
+        <p><strong>Session 4A</strong></p>
+        <p>Chair: Geoff Sutcliffe</p>
+
+<ul style="list-style-position: outside; list-style: square;">
+<li>
+16:45: <strong>Jan Jakubuv, Karel Chvalovský, Miroslav Olšák, Bartosz Piotrowski, Martin Suda, Josef Urban.</strong>
+<it>ENIGMA Anonymous: Symbol-Independent Inference Guiding Machine (system description).</it>
+
+            &nbsp;&nbsp;&nbsp;
+            <a data-toggle="collapse"
+                href="#collapseAbstract1" role="button"
+                style="font-size: var(--text-xsm);"
+                aria-expanded="false" aria-controls="collapseAbstract1">
+                See abstract
+            </a>...
+            <div class="collapse" id="collapseAbstract1">
+                <div class="card card-body" style="padding-left:20px">
+        ABSTRACT. We describe an implementation of gradient boosted and neural guidance of saturation-style automated theorem provers that does not depend on consistent symbol names across problems. For the gradient-boosted guidance, we manually create abstracted features by considering arity-based encodings of formulas. For the neural guidance, we use symbol-independent graph neural networks and their embedding of the terms and clauses. The two methods are efficiently implemented in the E prover and its ENIGMA learning-guided framework and evaluated on the MPTP large-theory benchmark. Both methods are shown to achieve comparable real-time performance to state-of-the-art symbol-based methods.
+                </div>
+            </div>
+        </li>
+<li>
+17:00: <strong>Zsolt Zombori, Josef Urban.</strong>
+<it>Prolog Technology Reinforcement Learning Prover (system description).</it>
+
+            &nbsp;&nbsp;&nbsp;
+            <a data-toggle="collapse"
+                href="#collapseAbstract2" role="button"
+                style="font-size: var(--text-xsm);"
+                aria-expanded="false" aria-controls="collapseAbstract2">
+                See abstract
+            </a>...
+            <div class="collapse" id="collapseAbstract2">
+                <div class="card card-body" style="padding-left:20px">
+        ABSTRACT. We present a reinforcement learning toolkit for experiments with guiding automated theorem proving in the connection calculus. The core of the toolkit is a compact and easy to extend Prolog-based automated theorem prover called plCoP. plCoP builds on the leanCoP Prolog implementation and adds learning-guided Monte Carlo Tree Search as done in the rlCoP system. Other components include a Python interface between plCoP and machine learners, and an external proof checker that verifies the validity of the plCoP proofs. The toolkit is evaluated on two benchmarks and we demonstrate its extendability by two additions: (1) the learned guidance is extended to reduction steps and (2) the standard leanCoP calculus is extended with rewrite steps and their learned guidance. We show that the code size compares favorably to rlCoP and argue that the Prolog setting is suitable for combining statistical and symbolic learning methods. The complete toolkit is publicly released.
+                </div>
+            </div>
+        </li>
+<li>
+17:15: <strong>Bernhard Gleiss, Martin Suda.</strong>
+<it>Layered Clause Selection for Theory Reasoning (short paper).</it>
+
+            &nbsp;&nbsp;&nbsp;
+            <a data-toggle="collapse"
+                href="#collapseAbstract3" role="button"
+                style="font-size: var(--text-xsm);"
+                aria-expanded="false" aria-controls="collapseAbstract3">
+                See abstract
+            </a>...
+            <div class="collapse" id="collapseAbstract3">
+                <div class="card card-body" style="padding-left:20px">
+        ABSTRACT. Explicit theory axioms are added by a saturation-based theorem prover as one of the techniques for supporting theory reasoning. While simple and effective, adding theory axioms can also pollute the search space with many irrelevant consequences. As a result, the prover often gets lost in parts of the search space where the chance to find a proof is low. In this paper we describe a new strategy for controlling the amount of reasoning with explicit theory axioms. The strategy refines a recently proposed two-layer-queue clause selection and combines it with a heuristical measure of the amount of theory reasoning in the derivation of a clause. We implemented the new strategy in the automatic theorem prover Vampire and present an evaluation showing that our work dramatically improves the state-of-the-art clause-selection strategy in the presence of theory axioms.
+                </div>
+            </div>
+        </li>
+<li>
+17:30: <strong>Zarathustra Goertzel.</strong>
+<it>Make E Smart Again (short paper).</it>
+
+            &nbsp;&nbsp;&nbsp;
+            <a data-toggle="collapse"
+                href="#collapseAbstract4" role="button"
+                style="font-size: var(--text-xsm);"
+                aria-expanded="false" aria-controls="collapseAbstract4">
+                See abstract
+            </a>...
+            <div class="collapse" id="collapseAbstract4">
+                <div class="card card-body" style="padding-left:20px">
+        ABSTRACT. In this work in progress we demonstrate a new use-case for the ENIGMA system. The ENIGMA system using the XGBoost implementation of gradient boosted decision trees has shown high capability to learn to guide the E theorem prover's inferences in real time.<br/>
+In this work we strip E to the barebones: we replace the KBO6 term ordering with an identity relation as the minimal possible ordering, disable literal selection, and replace evolved strategies with the simple combination of the clause weight and FIFO (first in first out) evaluatino functions.<br/>
+We experimentally demonstrate that ENIGMA can learn to guide E as well as the smart, evolved strategies even without these staple automated theorem prover functionalities. 
+To do this we need to experiment with XGBoost's meta-parameters over a dozen loops.
+                </div>
+            </div>
+        </li>
+</ul>
+
+    </div>
+</div>

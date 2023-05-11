@@ -1,0 +1,90 @@
+- title: IJCAR-FSCD 2020
+  link: /
+
+- title: Programs
+  list:
+  - title: FSCD-IJCAR
+    link: /program
+  - title: Workshops
+    link: /wsprogram
+  -
+  - title: Week
+    link: /workshops#schedule
+
+- title: Live Streaming
+  list:
+  - title: Today
+    link: /streaming/diaporama
+  -
+  -
+  - title: FSCD-IJCAR (1-4/7)
+  -
+  - title: Day 1
+    link: /streaming/day1/diaporama
+  - title: Day 2
+    link: /streaming/day2/diaporama
+  - title: Day 3
+    link: /streaming/day3/diaporama
+  - title: Day 4
+    link: /streaming/day4/diaporama
+  -
+  -
+  - title: Pre-ws (29-30/6)
+    link: /streaming/wsday1/diaporama
+  - title: Post-ws (5-6/7)
+    link: /streaming/wsday3/diaporama
+  # - title: July 5th
+  #   link: /streaming/wsday3/diaporama
+  # - title: July 6th
+  #   link: /streaming/wsday4/diaporama
+
+- title: Colocated events
+  list:
+  - title: About
+    link: /#about
+  -
+  -
+  - title: FSCD 2020
+  - title: Site
+    url: http://fscd2020.org
+  - title: CFP
+    url: http://fscd2020.org/call-for-papers
+  -
+  - title: IJCAR 2020
+  - title: Site
+    url: http://ijcar2020.org
+  - title: CFP
+    url: https://ijcar2020.org/wp-content/uploads/2019/11/IJCAR2020-CFP.txt
+  -
+  - title: Speakers
+    link: /speakers
+    # link: /program
+  -
+  -
+  - title: Workshops
+  - title: Affiliated
+    link: /workshops
+  - title: CFW
+    link: /call-for-workshops
+  - title: Schedule
+    link: /workshops#schedule
+  - title: WS Program
+    link: /wsprogram
+  -
+  -
+  - title: Program
+    link: /program/day1
+  - title: Register
+    link: /register
+
+- title: More Info
+  list:
+  - title: Local
+  - title: Venue
+    link: /venue
+  -
+  - title: News
+    link: /news
+  -
+  - title: Sponsors
+    link: /#sponsors

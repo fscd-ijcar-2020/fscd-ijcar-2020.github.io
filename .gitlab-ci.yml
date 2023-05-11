@@ -1,0 +1,30 @@
+image: ruby:2.6
+
+variables:
+  JEKYLL_ENV: production
+  LC_ALL: C.UTF-8
+
+cache:
+  paths:
+    - vendor/bundle
+
+before_script:
+  - apt-get update -qy
+  - apt-get install -y lftp
+  - gem install bundler:2.0.2
+  - bundle install --path vendor/bundle
+
+build:
+  script:
+  - bundle exec jekyll build -d public
+  artifacts:
+    paths:
+    - public
+
+deploy:
+  type: deploy
+  environment: production
+  script:
+  - lftp -e "set sftp:auto-confirm yes ; open sftp://$SFTP_HOST ; user $SFTP_USER $SFTP_PASSWORD; mirror --exclude-glob .git* --exclude .git/ --reverse --verbose --delete public/ ijcar-fscd-2020/; bye"
+  only:
+  - master

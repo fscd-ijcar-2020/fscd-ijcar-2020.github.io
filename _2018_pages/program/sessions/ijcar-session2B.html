@@ -1,0 +1,108 @@
+---
+permalink: /program/sessions/ijcar-session2B
+published: true
+---
+
+<div class="cd-schedule-modal__event-info">
+	<div>
+        <p><strong>Session 2B</strong></p>
+        <p>Chair: Jeremy Avigad</p>
+
+<ul style="list-style-position: outside; list-style: square;">
+<li>
+13:00: <strong>Reynald Affeldt, Cyril Cohen, Marie Kerjean, Assia Mahboubi, Damien Rouhling, Kazuhiko Sakaguchi.</strong>
+<it>Competing Inheritance Paths in Dependent Type Theory: a Case Study in Functional Analysis.</it>
+
+            &nbsp;&nbsp;&nbsp;
+            <a data-toggle="collapse"
+                href="#collapseAbstract1" role="button"
+                style="font-size: var(--text-xsm);"
+                aria-expanded="false" aria-controls="collapseAbstract1">
+                See abstract
+            </a>...
+            <div class="collapse" id="collapseAbstract1">
+                <div class="card card-body" style="padding-left:20px">
+        ABSTRACT. This paper discusses the design of a hierarchy of structures which combine linear algebra with concepts related to limits, like topology and norms, in dependent type theory. This hierarchy is the backbone of a new library of formalized classical analysis, for the Coq proof assistant. It extends the Mathematical Components library, geared towards algebra, with topics in analysis. Issues of a more general nature related to the inheritance of poorer structures from richer ones arise due to this combination. We present and discuss a solution, coined forgetful inheritance, based on packed classes and unification hints.
+                </div>
+            </div>
+        </li>
+<li>
+13:30: <strong>Basil Fürer, Andreas Lochbihler, Joshua Schneider, Dmitriy Traytel.</strong>
+<it>Quotients of Bounded Natural Functors.</it>
+
+            &nbsp;&nbsp;&nbsp;
+            <a data-toggle="collapse"
+                href="#collapseAbstract2" role="button"
+                style="font-size: var(--text-xsm);"
+                aria-expanded="false" aria-controls="collapseAbstract2">
+                See abstract
+            </a>...
+            <div class="collapse" id="collapseAbstract2">
+                <div class="card card-body" style="padding-left:20px">
+        ABSTRACT. The functorial structure of type constructors is the foundation for many definition and proof principles in higher-order logic (HOL).
+For example, inductive and coinductive datatypes can be built modularly from so-called bounded natural functors (BNFs), a class of particularly well-behaved type constructors.
+Composition, fixpoints, and---under certain conditions---subtypes are known to preserve the BNF structure.
+In this paper, we tackle the preservation question for quotients, the last important principle for introducing new types in HOL.
+We identify sufficient conditions under which a quotient inherits the BNF structure from its underlying type.
+We implement in the Isabelle proof assistant a command that automates the registration of a quotient type as a BNF by lifting the underlying type's BNF structure.
+We demonstrate the command's usefulness through several case studies.
+                </div>
+            </div>
+        </li>
+<li>
+14:00: <strong>Clément Pit-Claudel, Peng Wang, Benjamin Delaware, Jason Gross, Adam Chlipala.</strong>
+<it>Extensible Extraction of Efficient Imperative Programs with Foreign Functions, Manually Managed Memory, and Proofs.</it>
+
+            &nbsp;&nbsp;&nbsp;
+            <a data-toggle="collapse"
+                href="#collapseAbstract3" role="button"
+                style="font-size: var(--text-xsm);"
+                aria-expanded="false" aria-controls="collapseAbstract3">
+                See abstract
+            </a>...
+            <div class="collapse" id="collapseAbstract3">
+                <div class="card card-body" style="padding-left:20px">
+        ABSTRACT. We present an original approach to sound program extraction in a proof assistant, using syntax-driven automation to derive correct-by-construction imperative programs from nondeterministic functional source code.  Our approach does not require committing to a single inflexible compilation strategy and instead makes it straightforward to create domain-specific code translators.  In addition to a small set of core definitions, our framework is a large, user-extensible collection of compilation rules each phrased to handle specific language constructs, code patterns, or data manipulations.  By mixing and matching these pieces of logic, users can easily tailor extraction to their own domains and programs, getting maximum performance and ensuring correctness of the resulting assembly code.<br/>
+  Using this approach, we complete the first proof-generating pipeline that goes automatically from high-level specifications to assembly code.  In our main case study, the original specifications are phrased to resemble SQL-style queries, while the final assembly code does manual memory management, calls out to foreign data structures and functions, and is suitable to deploy on resource-constrained platforms.  The pipeline runs entirely within the Coq proof assistant, leading to final, linked assembly code with overall full-functional-correctness proofs in separation logic.
+                </div>
+            </div>
+        </li>
+<li>
+14:30: <strong>Sebastian Ullrich, Leonardo de Moura.</strong>
+<it>Beyond Notations: Hygienic Macro Expansion for Theorem Proving Languages.</it>
+
+            &nbsp;&nbsp;&nbsp;
+            <a data-toggle="collapse"
+                href="#collapseAbstract4" role="button"
+                style="font-size: var(--text-xsm);"
+                aria-expanded="false" aria-controls="collapseAbstract4">
+                See abstract
+            </a>...
+            <div class="collapse" id="collapseAbstract4">
+                <div class="card card-body" style="padding-left:20px">
+        ABSTRACT. In interactive theorem provers (ITPs), extensible syntax is
+not only crucial to lower the cognitive burden of manipulating complex
+mathematical objects, but plays a critical role in developing reusable ab-
+stractions in libraries. Most ITPs support such extensions in the form
+of restrictive “syntax sugar” substitutions and other ad hoc mechanisms,
+which are too rudimentary to support many desirable abstractions. As
+a result, libraries are littered with unnecessary redundancy. Tactic lan-
+guages in these systems are plagued by a seemingly unrelated issue: ac-
+cidental name capture, which often produces unexpected and counterin-
+tuitive behavior. We take ideas from the Scheme family of programming
+languages and solve these two problems simultaneously by proposing a
+novel hygienic macro system for ITPs. We further describe how our ap-
+proach can be extended to cover type-directed macro expansion resulting
+in a single, uniform system offering multiple abstraction levels that range
+from supporting simplest syntax sugars to elaboration of formerly baked-
+in syntax. We have implemented our new macro system and integrated
+it into the upcoming version (v4) of the Lean theorem prover. Despite
+its expressivity, the macro system is simple enough that it can easily be
+integrated into other systems.
+                </div>
+            </div>
+        </li>
+</ul>
+
+    </div>
+</div>

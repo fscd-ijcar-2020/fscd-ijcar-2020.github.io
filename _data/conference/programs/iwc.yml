@@ -1,0 +1,118 @@
+name: International Workshop on Confluence
+program:
+- date: 29/06/20
+- date: 30/06/20
+  sessions:
+  - end: '10:00'
+    num: 1
+    start: '09:00'
+    talks:
+    - authors:
+      - "Fr\xE9d\xE9ric Blanqui"
+      time: '09:00'
+      title: On the use of confluence in type theory modulo rewriting
+    title: IWC Invited Talk
+    type: talks
+  - end: '11:00'
+    num: 2
+    start: '10:00'
+    talks:
+    - authors:
+      - Vincent van Oostrom
+      time: '10:00'
+      title: Some symmetries of commutation diamonds
+    - authors:
+      - Kiraku Shintani
+      - Nao Hirokawa
+      time: '10:30'
+      title: Parallel Closedness Revisited
+    title: IWC Talks
+    type: talks
+  - end: '11:30'
+    num: 3
+    start: '11:00'
+    title: Coffee Break
+    type: break
+  - end: '13:00'
+    num: 4
+    start: '11:30'
+    talks:
+    - authors:
+      - Benjamin Dupont
+      - Philippe Malbos
+      - Cyrille Chenavier
+      time: '11:30'
+      title: Algebraic critical pair lemma
+    - authors:
+      - Ugo De'Liguoro
+      - Riccardo Treglia
+      time: '12:00'
+      title: On the reduction of the type-free computational Lambda-calculus
+    - authors:
+      - Anders Miltner
+      - Kathleen Fisher
+      - Benjamin Pierce
+      - David Walker
+      - Steve Zdancewic
+      time: '12:30'
+      title: Confluence in Lens Synthesis
+    title: IWC Talks
+    type: talks
+  - end: '14:00'
+    num: 5
+    start: '13:00'
+    title: Lunch Break
+    type: break
+  - end: '15:00'
+    num: 6
+    start: '14:00'
+    talks:
+    - time: '14:00'
+      title: 9th Confluence Competition
+    title: CoCo Talks
+    type: talks
+  - end: '15:30'
+    num: 7
+    start: '15:00'
+    talks:
+    - authors:
+      - Cameron Calk
+      time: '15:00'
+      title: Coherent Confluence in Modal n-Kleene Algebras
+    title: IWC Talks
+    type: talks
+  - end: '16:00'
+    num: 8
+    start: '15:30'
+    title: Coffee Break
+    type: break
+  - end: '17:00'
+    num: 9
+    start: '16:00'
+    talks:
+    - authors:
+      - Margherita Zorzi
+      time: '16:00'
+      title: Compositional theories for embedded programming
+    title: IWC Invited Talk
+    type: talks
+  - end: '18:00'
+    num: 10
+    start: '17:00'
+    talks:
+    - authors:
+      - Eelco Visser
+      - Eduardo Amorim
+      time: '17:00'
+      title: Safety and Completeness of Disambiguation corresponds to Termination
+        and Confluence of Reordering
+    - authors:
+      - Jean-Pierre Jouannaud
+      - Fernando Orejas
+      time: '17:30'
+      title: Confluence of drag rewriting
+    title: IWC Talks
+    type: talks
+progurl: ''
+title: iwc
+url: http://iwc2020.cic.unb.br/

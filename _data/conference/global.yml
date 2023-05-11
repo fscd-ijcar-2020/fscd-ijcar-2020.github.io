@@ -1,0 +1,15 @@
+fscd:
+  logo-header: /css/2016_style/img/logos/fscd-logo-white.png
+  logo: /css/2016_style/img/logos/fscd-logo.png
+  url-2020: "http://fscd2020.org"
+  url: "http://fscd-conference.org"
+  color: lime
+  wscolor: greenyellow
+
+ijcar:
+  logo-header: /css/2016_style/img/logos/ijcar-logo-white.svg
+  logo: /css/2016_style/img/logos/ijcar-logo.svg
+  url-2020: "http://ijcar2020.org"
+  url: "http://ijcar.org"
+  color: deepskyblue
+  wscolor: lightblue

@@ -1,0 +1,137 @@
+name: WiL 2020
+program:
+- date: 29/06/20
+- date: 30/06/20
+  sessions:
+  - chairs:
+    - Sandra Kiefer
+    end: '11:00'
+    num: 1
+    start: '09:00'
+    talks:
+    - authors:
+      - Madalina Erascu
+      - Flavia Micota
+      - Daniela Zaharie
+      time: '09:00'
+      title: Applying Optimization Modulo Theory, Mathematical Programming and Symmetry
+        Breaking for Automatic Deployment in the Cloud of Component-based Applications
+    - authors:
+      - Sabine Frittella
+      - Marta Bilkova
+      - Sajad Nazari
+      - Ondrej Majer
+      time: '09:20'
+      title: "\u201CHow to reason with inconsistent probabilistic information?\u201C"
+    - authors:
+      - Maja Kirkeby
+      - "Robert Gl\xFCck"
+      time: '09:40'
+      title: "\u201COn the Semi-Inversion of Conditional Term Rewriting Systems\u201D"
+    - authors:
+      - Sara Kalvala
+      time: '10:00'
+      title: "\u201CLogical Frameworks for Biochemical Reactions and Metabolic Pathways\u201D"
+    - authors:
+      - Rita Macedo
+      time: '10:20'
+      title: "\u201COCaml-Flat on the Ocsigen Framework\u201D"
+    - authors:
+      - Line van den Berg
+      time: '10:40'
+      title: 'Forgetting Agent Awareness: a Partial Semantics Approach'
+    title: Session 1
+    type: talks
+  - end: '11:30'
+    num: 2
+    start: '11:00'
+    title: Virtual coffee break
+    type: break
+  - chairs:
+    - Sandra Alves
+    end: '12:50'
+    num: 3
+    start: '11:30'
+    talks:
+    - authors:
+      - "Sandra M. L\xF3pez Velasco"
+      time: '11:30'
+      title: "\u201COn some implicative expansions of Anderson and Belnap's First\
+        \ Degree Entailment Logic\u201D"
+    - authors:
+      - Katarzyna Wieslawa Kowalik
+      time: '11:50'
+      title: "\u201CThe Cohesiveness Principle over RCA*_0\u201D"
+    - authors:
+      - Iris van der Giessen
+      time: '12:10'
+      title: "\u201CUniform interpolation in Intuitionistic Modal Logic\u201D"
+    - authors:
+      - Ruba Alassaf
+      - Renate A. Schmidt
+      time: '12:30'
+      title: "\u201CDeveloping Practical Uniform Interpolation Systems for Modal Logic\u201D"
+    title: Session 2
+    type: talks
+  - end: '14:00'
+    num: 4
+    start: '13:00'
+    title: Lunch break
+    type: break
+  - chairs:
+    - Valeria de Paiva
+    end: '15:30'
+    num: 5
+    start: '14:00'
+    talks:
+    - authors:
+      - "Maribel Fern\xE1ndez"
+      time: '14:00'
+      title: "\u201CNominal Syntax with Atom Substitutions\u201D"
+    - authors:
+      - Alexandra Silva
+      time: '14:45'
+      title: "\u201CAn algebraic framework to reason about concurrency\u201D"
+    title: 'Session 3: Invited talks'
+    type: talks
+  - end: '16:00'
+    num: 6
+    start: '15:30'
+    title: Virtual coffee break
+    type: break
+  - chairs:
+    - Ana Sokolova
+    end: '17:40'
+    num: 7
+    start: '16:00'
+    talks:
+    - authors:
+      - Marianna Girlando
+      - Marianela Morales
+      time: '16:00'
+      title: 'MOILab: towards a labelled theorem prover for intuitionistic modal'
+    - authors:
+      - Mariela Rubin
+      time: '16:20'
+      title: "\u201CProbabilistic coherence and bilateralism\u201D"
+    - authors:
+      - Sonia Marin
+      - Luiz Carlos Pereira
+      - Elaine Pimentel
+      - Emerson Sales
+      time: '16:40'
+      title: "\u201CEcumenical modal logic\u201D"
+    - authors:
+      - Sara L. Uckelman
+      time: '17:00'
+      title: "\u201CWhat Problem Did Ladd-Franklin (Think She) Solve(d)?\u201D"
+    - authors:
+      - Kristin Yvonne Rozier
+      time: '17:20'
+      title: "\u201CTemporal Logic Satisfiability From Specification Debugging to\
+        \ Benchmark Generation\u201D"
+    title: Session 4
+    type: talks
+progurl: https://sites.google.com/g.uporto.pt/wil2020/programme?authuser=0
+title: wil
+url: https://sites.google.com/g.uporto.pt/wil2020

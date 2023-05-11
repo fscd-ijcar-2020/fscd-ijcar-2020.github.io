@@ -1,0 +1,12 @@
+---
+layout: streaming
+title: LFMTP
+permalink: streaming/wsday1/lfmtp.html
+published: true
+width: 1120
+height: 630
+day: wsday1
+---
+
+{% assign conf = 'lfmtp' %}
+{% include streaming.html %}

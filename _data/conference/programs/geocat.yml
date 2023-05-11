@@ -1,0 +1,133 @@
+name: Joint Workshop Linearity & TLLA 2020
+program:
+- date: 05/07/20
+  sessions:
+  - chairs:
+    end: '11:00'
+    num: 1
+    start: '09:30'
+    talks:
+    - authors:
+      - Yuki Maehara
+      time: '9:30'
+      title:
+    title: Session 1
+    type: talks
+  - end: '11:30'
+    num: 2
+    start: '11:00'
+    title: Virtual coffee break
+    type: break
+  - chairs:
+    - TBA
+    end: '13:00'
+    num: 3
+    start: '11:30'
+    talks:
+    - authors:
+      - Simona Paoli
+      time: '11:30'
+      title:
+    title:
+    title: Session 1
+    type: talks
+  - end: '14:00'
+    num: 4
+    start: '13:00'
+    title: Lunch break
+    type: break
+  - chairs:
+    - Ugo Dal Lago
+    end: '15:30'
+    num: 5
+    start: '14:00'
+    talks:
+    - authors:
+      - Denis-Charles Cisinski
+      time: '14:00'
+      title:
+    title: Session 3
+    type: talks
+  - end: '16:00'
+    num: 6
+    start: '15:30'
+    title: Virtual coffee break
+    type: break
+  - chairs:
+    end: '17:30'
+    num: 7
+    start: '16:00'
+    talks:
+    - authors:
+      - Amar Hadzihasanovic
+      time: '16:00'
+      title:
+    title: Session 4
+    type: talks
+- date: 06/07/20
+  sessions:
+  - chairs:
+    end: '11:00'
+    num: 1
+    start: '09:30'
+    talks:
+    - authors:
+      - Sophie Raynor
+      time: '9:30'
+      title:
+    title: Session 1
+    type: talks
+  - end: '11:30'
+    num: 2
+    start: '11:00'
+    title: Virtual coffee break
+    type: break
+  - chairs:
+    - TBA
+    end: '13:00'
+    num: 3
+    start: '11:30'
+    talks:
+    - authors:
+      - Philippe Malbos
+      time: '11:30'
+      title:
+    title:
+    title: Session 1
+    type: talks
+  - end: '14:00'
+    num: 4
+    start: '13:00'
+    title: Lunch break
+    type: break
+  - chairs:
+    - Ugo Dal Lago
+    end: '15:30'
+    num: 5
+    start: '14:00'
+    talks:
+    - authors:
+      - Andrea Gagna
+      time: '14:00'
+      title:
+    title: Session 3
+    type: talks
+  - end: '16:00'
+    num: 6
+    start: '15:30'
+    title: Virtual coffee break
+    type: break
+  - chairs:
+    end: '17:30'
+    num: 7
+    start: '16:00'
+    talks:
+    - authors:
+      - Martina Rovelli
+      time: '16:00'
+      title:
+    title: Session 4
+    type: talks
+progurl: https://www.irif.fr/~geocat/geocat2020
+title: Geometric and Categorical Structures in Computation and Deduction
+url: https://www.irif.fr/~geocat/geocat2020

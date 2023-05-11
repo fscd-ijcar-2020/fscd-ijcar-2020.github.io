@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+  <style type="text/css">
+    /*INCLUDE MAIN CSS FILE*/
+    {% capture criticalcss %}
+      {% include /2016_css/critical.scss %}
+    {% endcapture %}
+    {{ criticalcss | scssify }}
+
+    body {
+      background: Gainsboro !important;
+      background-attachment: fixed;
+    }
+  </style>
+
+  {% include /2018_data/js.html %}
+  {% include /2018_data/head.html %}
+
+  <body>
+    {% include /2018_data/header.html %}
+    {{ content }}
+  </body>
+  {% include /2018_data/footer.html %}
+</html>

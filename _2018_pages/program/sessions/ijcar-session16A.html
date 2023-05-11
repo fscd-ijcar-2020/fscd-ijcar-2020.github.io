@@ -1,0 +1,129 @@
+---
+permalink: /program/sessions/ijcar-session16A
+published: true
+---
+
+<div class="cd-schedule-modal__event-info">
+	<div>
+        <p><strong>Session 16A</strong></p>
+        <p>Chair: Andrew Reynolds</p>
+
+<ul style="list-style-position: outside; list-style: square;">
+<li>
+16:30: <strong>Jürgen Giesl.</strong>
+<it>Termination Competition.</it>
+</li>
+<li>
+16:45: <strong>Geoff Sutcliffe.</strong>
+<it>The CADE ATP System Competition Presentation.</it>
+</li>
+<li>
+17:00: <strong>Ahmed Bhayat, Giles Reger.</strong>
+<it>A Polymorphic Vampire (short paper).</it>
+
+            &nbsp;&nbsp;&nbsp;
+            <a data-toggle="collapse"
+                href="#collapseAbstract3" role="button"
+                style="font-size: var(--text-xsm);"
+                aria-expanded="false" aria-controls="collapseAbstract3">
+                See abstract
+            </a>...
+            <div class="collapse" id="collapseAbstract3">
+                <div class="card card-body" style="padding-left:20px">
+        ABSTRACT. We have modified the Vampire theorem prover to support rank-1 polymorphism. In this paper we discuss the changes required to enable this and compare the performance of polymorphic Vampire against other polymorphic provers. We also compare its performance on monomorphic problems against standard Vampire. Finally, we discuss how polymorphism can be used to support theory reasoning and present results related to this.
+                </div>
+            </div>
+        </li>
+<li>
+17:15: <strong>André Duarte, Konstantin Korovin.</strong>
+<it>Implementing superposition in iProver (system description).</it>
+
+            &nbsp;&nbsp;&nbsp;
+            <a data-toggle="collapse"
+                href="#collapseAbstract4" role="button"
+                style="font-size: var(--text-xsm);"
+                aria-expanded="false" aria-controls="collapseAbstract4">
+                See abstract
+            </a>...
+            <div class="collapse" id="collapseAbstract4">
+                <div class="card card-body" style="padding-left:20px">
+        ABSTRACT. iProver is a saturation theorem prover for first-order logic with equality, which is originally based on an instantiation calculus, Inst-Gen. In this paper we describe an extension of iProver with the superposition calculus. 
+We have developed a flexible simplification setup that subsumes and generalises common architectures such as Discount or Otter. This also includes the concept of "immediate simplification", wherein newly derived clauses are more aggressively simplified among themselves, which can make the given clause redundant and thus its children discarded, and the concept of "light normalisation", wherein ground unit equations are stored in an interreduced TRS which is then used to simplify new clauses. We have also added support for associative-commutative theories (AC), namely by deletion of AC-joinable clauses, semantic detection of AC axioms, and preprocessing normalisation.
+                </div>
+            </div>
+        </li>
+<li>
+17:30: <strong>Stephan Schulz, Adam Pease.</strong>
+<it>Teaching Automated Theorem Proving by Example: PyRes 1.2 (system description).</it>
+
+            &nbsp;&nbsp;&nbsp;
+            <a data-toggle="collapse"
+                href="#collapseAbstract5" role="button"
+                style="font-size: var(--text-xsm);"
+                aria-expanded="false" aria-controls="collapseAbstract5">
+                See abstract
+            </a>...
+            <div class="collapse" id="collapseAbstract5">
+                <div class="card card-body" style="padding-left:20px">
+        ABSTRACT. PyRes is a complete theorem prover for first-order logic. It is not
+designed for high performance, but to clearly demonstrate the core
+concepts of a saturating theorem prover. The system is written in
+extensively commented Python, explaining data structures,
+algorithms, and many of the underlying theoretical concepts. The
+prover implements binary resolution with factoring and optional
+negative literal selection. Equality is handled by adding the basic
+axioms of equality. PyRes uses the given-clause algorithm,
+optionally controlled by weight- and age evaluations for clause
+selection. The prover can read TPTP CNF/FOF input files and produces
+TPTP/TSTP proof objects.<br/>
+Evaluation shows, as expected, mediocre performance compared to
+modern high-performance systems, with relatively better performance
+for problems without equality. However, the system seems to be sound and
+complete in practice.
+                </div>
+            </div>
+        </li>
+<li>
+17:45: <strong>Grant Passmore, Simon Cruanes, Denis Ignatovich, David Aitken, Matthew Bray, Elijah Kagan, Konstantin Kanishev, Ewen Maclean, Nicola Mometto.</strong>
+<it>The Imandra Automated Reasoning System (system description).</it>
+
+            &nbsp;&nbsp;&nbsp;
+            <a data-toggle="collapse"
+                href="#collapseAbstract6" role="button"
+                style="font-size: var(--text-xsm);"
+                aria-expanded="false" aria-controls="collapseAbstract6">
+                See abstract
+            </a>...
+            <div class="collapse" id="collapseAbstract6">
+                <div class="card card-body" style="padding-left:20px">
+        ABSTRACT. We describe Imandra, a modern computational logic theorem prover designed to
+bridge the gap between decision procedures such as SMT, semi-automatic inductive
+provers of the Boyer-Moore family like ACL2, and interactive proof assistants
+for typed higher-order logics. Imandra's logic is computational, based on a pure
+subset of OCaml in which all functions are terminating, with restrictions on
+types and higher-order functions that allow conjectures to be translated into
+multi-sorted first-order logic with theories, including arithmetic and
+datatypes. Imandra has novel features supporting large-scale industrial
+applications, including a seamless integration of bounded and unbounded
+verification, first-class computable counterexamples, efficiently executable
+models and a cloud-native architecture supporting live multiuser collaboration.
+%
+The core reasoning mechanisms of Imandra are
+\begin{inparaenum}[(i)]
+\item a semi-complete procedure for finding models of formulas in the logic
+  mentioned above, centered around the lazy expansion of recursive functions,
+\item an inductive waterfall and simplifier which ``lifts'' many Boyer-Moore
+  ideas to our typed higher-order setting.
+\end{inparaenum}
+%
+These mechanisms are tightly integrated and subject to many forms of user control.
+Imandra's user interfaces include an interactive toplevel, Jupyter notebooks and
+asynchronous document-based verification (in the spirit of Isabelle's Prover IDE)
+with VS Code.
+                </div>
+            </div>
+        </li>
+</ul>
+
+    </div>
+</div>

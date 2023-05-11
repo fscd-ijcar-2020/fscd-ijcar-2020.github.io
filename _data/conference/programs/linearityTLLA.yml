@@ -1,0 +1,203 @@
+name: Joint Workshop Linearity & TLLA 2020
+program:
+- date: 29/06/20
+  sessions:
+  - chairs:
+    - Ugo dal Lago
+    end: '11:00'
+    num: 1
+    start: '09:40'
+    talks:
+    - authors:
+      - Simona Ronchi Della Rocca
+      time: '9:40'
+      title: Program approximation in the call-by-value setting
+    - authors:
+      - Masahito Hasegawa
+      time: '10:40'
+      title: A braided lambda calculus
+    title: Session 1
+    type: talks
+  - end: '11:30'
+    num: 2
+    start: '11:00'
+    title: Virtual coffee break
+    type: break
+  - chairs:
+    - Ugo Dal Lago
+    end: '12:50'
+    num: 3
+    start: '11:30'
+    talks:
+    - authors:
+      - Paolo Pistone
+      time: '11:30'
+      title: Proof nets and the instantiation overflow property
+    - authors:
+      - Satoshi Matsuoka
+      time: '11:50'
+      title: New Linear Time Correctness Condition for Multiplicative Linear Logic
+    - authors:
+      - Matteo Acclavio
+      time: '12:10'
+      title: Exponentially Handsome Proof Nets
+    - authors:
+      - Gianluca Curzi
+      time: '12:30'
+      title: "\u201CLinear Additives\u201D"
+    title: Session 2
+    type: talks
+  - end: '14:10'
+    num: 4
+    start: '12:50'
+    title: Lunch break
+    type: break
+  - chairs:
+    - Ugo Dal Lago
+    end: '15:30'
+    num: 5
+    start: '14:10'
+    talks:
+    - authors:
+      - Kaustuv Chaudhuri
+      time: '14:00'
+      title: "\u201CInteractive Proof Building with Direct Manipulation for Linear\
+        \ Logic (and Cousins)\u201D"
+    - authors:
+      - James Wood
+      - Robert Atkey
+      time: '15:10'
+      title: "\u201CA Linear Algebra Approach to Linear Metatheory\u201D"
+    title: Session 3
+    type: talks
+  - end: '16:00'
+    num: 6
+    start: '15:30'
+    title: Virtual coffee break
+    type: break
+  - chairs:
+    - Ugo Dal Lago
+    end: '17:00'
+    num: 7
+    start: '16:00'
+    talks:
+    - authors:
+      - Jack Hughes
+      - Dominic Orchard
+      time: '16:00'
+      title: "\u201CDeriving distributive laws for graded linear types\u201D"
+    - authors:
+      - Aubrey Bryant
+      - Harley Eades III
+      time: '16:20'
+      title: "\u201CThe Graded Lambek Calculus\u201D"
+    - authors:
+      - Harley Eades III
+      - Dominic Orchard
+      time: '16:40'
+      title: "\u201CGrading Adjoint Logic\u201D"
+    title: Session 4
+    type: talks
+- date: 30/06/20
+  sessions:
+  - chairs:
+    - Ugo dal Lago
+    end: '11:00'
+    num: 8
+    start: '09:40'
+    talks:
+    - authors:
+      - Shin-ya Katsumata
+      time: '09:40'
+      title: A Double Category Theoretic Analysis of Graded Linear Exponential Comonads
+    - authors:
+      - Aleks Kissinger
+      time: '10:40'
+      title: MLL+MIX as a logic of influence and causation
+    title: Session 5
+    type: talks
+  - end: '11:30'
+    num: 9
+    start: '11:00'
+    title: Virtual coffee break
+    type: break
+  - chairs:
+    - Ugo Dal Lago
+    end: '12:50'
+    num: 10
+    start: '11:30'
+    talks:
+    - authors:
+      - Alberto Naibo
+      - Yuta Takahashi
+      time: '11:30'
+      title: "\u201CHarmony in the Light of Computational Ludics\u201D"
+    - authors:
+      - Marie Kerjean
+      time: '11:50'
+      title: Polarities in topological vector spaces
+    - authors:
+      - "Christian Retor\xE9."
+      time: '12:10'
+      title: A self-dual modality for non-commutative contraction and duplication
+        in the category of coherence space
+    - authors:
+      - Giulio Guerrieri
+      - Federico Olimpieri
+      time: '12:30'
+      title: "\u201CRigid Taylor Expansion and Intersection Type Distributors in the\
+        \ Bang Calculus\u201D"
+    title: Session 6
+    type: talks
+  - end: '14:10'
+    num: 11
+    start: '12:50'
+    title: Lunch break
+    type: break
+  - chairs:
+    - Ugo Dal Lago
+    talks:
+    - authors:
+      - Olivier Laurent
+      time: '14:10'
+      title: "\u201CFormalizing Linear Logic\u201D"
+    - authors:
+      - Esaie Bauer
+      - Olivier Laurent
+      time: '15:10'
+      title: "\u201CSuper Exponentials\u201D"
+    end: '15:30'
+    num: 12
+    start: '14:10'
+    title: 'Session 7'
+    type: talks
+  - end: '16:00'
+    num: 13
+    start: '15:30'
+    title: Virtual coffee break
+    type: break
+  - chairs:
+    - Ugo Dal Lago
+    end: '17:00'
+    num: 14
+    start: '16:00'
+    talks:
+    - authors:
+      - Matteo Acclavio
+      - Giulio Guerrieri
+      time: '16:00'
+      title: "\u201CDifferential Deep Inference\u201D"
+    - authors:
+      - Marie Kerjean
+      - "Pierre-Marie P\xE9drot"
+      time: '16:20'
+      title: "\u2202 is for Dialectica: typing differentiable programming"
+    - authors:
+      - Michael Shulman
+      time: '16:40'
+      title: "\u201C*-autonomous envelopes and conservativity\""
+    title: Session 8
+    type: talks
+progurl: https://lipn.univ-paris13.fr/LinearityTLLA2020/
+title: Linearity & TLLA
+url: https://lipn.univ-paris13.fr/LinearityTLLA2020/

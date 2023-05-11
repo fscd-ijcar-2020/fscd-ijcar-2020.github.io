@@ -1,0 +1,75 @@
+dates:
+  - name: Submission
+    date: 15 November, 2019
+
+  - name: Notification
+    date: 1 December, 2019
+
+  - name: Main conference
+    date: 30 June - 3 July 2020
+
+  - name: Workshop dates
+    date: 29 June, 4-5 July 2020
+
+sections:
+  - title:
+    content: >
+      We invite proposals for workshops, tutorials or other satellite events, on
+      any topic related to formal structures in computation, deduction and
+      automated reasoning, from theoretical foundations to tools and
+      applications.
+
+
+      Satellite events will take place on the 29 June and 4-5 July, before and
+      after the main conference (30 June - 5 July). It is expected that satellite
+      events would run for 1 or 2 days, and be open to participants of parallel
+      events.
+
+  - title: Proposals
+    content:  >
+      Proposals must be limited to three pages and should be submitted via easychair
+      <https://easychair.org/conferences/?conf=fscdijcar2020ws> (or, by email to <ws.org@ijcar-fscd-2020.org>).
+      Each proposal should consist of the following two parts.
+
+      - A description part including:
+        - a short scientific justification of the proposed topic, its significance, and
+          the particular benefits of the workshop to the community, as well as a list
+          of previous or related workshops (if relevant);
+        - a brief description (up to 120 words) of the event for the website and
+          publicity material.
+
+      - An organisational part including:
+        - contact information for the workshop organizers;
+        - proposed affiliated conference;
+        - estimate of the number of workshop participants;
+        - proposed format and agenda (e.g. paper presentations, tutorials, demo sessions, etc.)
+        - potential invited speakers;
+        - procedures for selecting papers and participants;
+        - tentative schedule for paper submission and notification of acceptance;
+        - plans for dissemination, if any (e.g. a journal special issue);
+        - duration (which may vary from one day to two days);
+        - preferred period (pre, or post main conferences).
+        - any other special requirements.
+
+      The Organizing Committee of FSCD-IJCAR will determine the final list of
+      accepted workshops based on the recommendations from the Workshop Chairs of
+      the hosting conferences and availability of space and facilities.
+
+
+      The organizers of satellite events are expected to create and maintain a
+      website for the event; handle paper selection, reviewing and acceptance; draw
+      up a tentative programme of talks; advertise their event though specialist
+      mailing lists; prepare the informal pre-proceedings (if applicable) in a
+      timely fashion; and arrange any post-proceedings. Some amount of financial
+      support may be offered to workshops, depending on the number of participants.
+
+
+      The FSCD-IJCAR organizing committee will handle promotion of the event on the
+      main conference website; integration of the event's programme into the
+      overall timetable; registration of participants; arrangement of an
+      appropriate meeting room; and provision of lunch and coffee breaks for
+      participants.
+
+# file:
+#   label:
+#   url:

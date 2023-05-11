@@ -1,0 +1,36 @@
+---
+layout: main-schedule-template
+permalink: /wsprogram/day4
+title: WS Program, July 6th
+published: true
+date: Monday, July 6th
+day: '06'
+month: '07'
+daynum: 1
+hstart: 9
+hend: 20
+days: [ "Monday, June 29th", "Tuesday, June 30th", "Sunday, July 5th", "Monday, July 6th", "Tuesday, July 7th" ]
+program_base: wsprogram
+---
+
+<script> document.documentElement.style.setProperty('--schedule-rows-number', 44); </script>
+
+{% assign conf = 'hott-uf' %}
+{% assign confname = 'HOTT/UF' %}
+{% assign event = 'event-fscd-ws' %}
+{% include 2018_data/schedule-session.html %}
+
+{% assign conf = 'geocat' %}
+{% assign confname = 'GeoCat' %}
+{% assign event = 'event-fscd-ws' %}
+{% include 2018_data/schedule-session.html %}
+
+{% assign conf = 'coq' %}
+{% assign confname = 'Coq' %}
+{% assign event = 'event-ijcar-ws' %}
+{% include 2018_data/schedule-session.html %}
+
+{% assign conf = 'smt' %}
+{% assign confname = 'SMT' %}
+{% assign event = 'event-ijcar-ws' %}
+{% include 2018_data/schedule-session.html %}

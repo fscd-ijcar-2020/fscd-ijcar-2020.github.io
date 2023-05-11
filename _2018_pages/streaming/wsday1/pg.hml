@@ -1,0 +1,12 @@
+---
+layout: streaming
+title: Proof Ground
+permalink: streaming/wsday1/pg.html
+published: true
+width: 1120
+height: 630
+day: wsday1
+---
+
+{% assign conf = 'pg' %}
+{% include streaming.html %}

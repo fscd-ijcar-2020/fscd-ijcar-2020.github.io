@@ -1,0 +1,51 @@
+- title:
+  name: academic-sponsors
+  sponsors:
+  - name: Université Paris 13
+    id: P13
+    logo: LogoUP13.png
+    link: https://www.univ-paris13.fr
+    alt: Paris 13
+    cols: 3
+  - name: CNRS
+    id: cnrs
+    logo: cnrs.png
+    link: http://www.cnrs.fr
+    alt: CNRS
+  - name: Campus Condorcet
+    id: condorcet
+    logo: Campus_Condorcet.png
+    link: https://www.campus-condorcet.fr
+    alt: Campus Condorcet
+  - name: LIPN - Laboratoire d'Informatique de Paris Nord
+    id: lipn
+    logo: LIPN.svg
+    link: http://lipn.univ-paris13.fr
+    alt: LIPN
+  # - name: IUT Villetabeuese
+  #   id: IUT
+  #   logo: IUT-Villetaneuse.png
+  #   alt: IUT Villetabeuese
+  - name: Laboratoire d'informatique de l'École polytechnique
+    id: lix
+    link: https://www.lix.polytechnique.fr
+    logo: Logo-lix.png
+    alt: LIX
+
+
+
+- title:
+  name: private-Sponsors
+  sponsors:
+  - name: Tezos
+    id: tezos
+    logo: tezos300.svg
+    link: https://tezos.com
+    alt: Tezos
+    cols: 4
+  - name: amazon
+    id: amazon
+    logo: amazon.png
+    link: https://www.aboutamazon.com
+    alt: Amazon
+    cols: 4

@@ -1,0 +1,198 @@
+name: Joint Workshop Linearity & TLLA 2020
+program:
+- date: 05/07/20
+  sessions:
+  - start: '14:00'
+    end: '15:30'
+    title: Session 1
+    type: talks
+    talks:
+    - time: '14:00'
+      authors:
+      - R. Bocquet
+      title: Coherence of definitional equalities in type theory
+    - time: '14:30'
+      authors:
+      - H. Herbelin
+      - H. Moeneclaey
+      title: Investigations into syntactic iterated parametricity and cubical type theory
+    - time: '15:00'
+      authors:
+      - T. Uemura
+      - H. K. Nguyen
+      title: "∞-type theories"
+  - start: '15:30'
+    end: '16:00'
+    type: break
+    title: "Virtual coffee break"
+  - start: '16:00'
+    end: '17:30'
+    title: Session 2
+    type: talks
+    talks:
+    - time: '16:00'
+      authors:
+      - C. Angiuli
+      title: From raw terms to recollement
+    - time: '17:00'
+      authors:
+      - C. Angiuli
+      - A. Mörtberg
+      - M. Zeuner
+      title: Representation Independence via the Cubical Structure Identity Principle
+  - start: '17:30'
+    end: '18:00'
+    type: break
+    title: "Virtual coffee break"
+  - start: '18:00'
+    end: '19:30'
+    type: talks
+    title: Session 3
+    talks:
+    - time: '18:00'
+      authors:
+      - M. Girardi
+      - R. Zunino
+      - M. Benini
+      title: A general syntax for nonrecursive Higher Inductive Types
+    - time: '18:30'
+      authors:
+      - M. Bickford
+      title: Cubical type theory with several universes in Nuprl
+    - time: '19:00'
+      authors:
+      - E. H. Gjørup
+      - B. Spitters
+      title: Congruence closure in Cubical Type Theory
+- date: 06/07/20
+  sessions:
+  - start: '14:00'
+    end: '15:30'
+    type: talks
+    title: Session 4
+    talks:
+    - time: '14:00'
+      authors:
+      - N Rasekh
+      title: A Step towards Non-Presentable Models of Homotopy Type Theory
+    - time: '14:30'
+      authors:
+      - J. Emmenegger
+      - F. Pasquali
+      - P. Rosolini
+      title: Elementary fibrations and (algebraic) weak factorisation systems
+    - time: '15:00'
+      authors:
+      - B. Ahrens
+      - N. Kudasov
+      - P. LeF. Lumsdaine
+      - V. Voevodsky
+      title: Categorical structures for type theory in univalent foundations, II
+  - start: '15:30'
+    end: '16:00'
+    title: Virtual coffee break
+    type: break
+  - start: '16:00'
+    end: '17:30'
+    type: talks
+    title: Session 5
+    talks:
+    - time: '16:00'
+      authors:
+      - L. Cohen
+      title: Building Extended Realizbility Models, Uniformly
+    - time: '17:00'
+      authors:
+      - E. Faber
+      - B. van den Berg
+      title: Effective Kan fibrations in Simplicial Sets
+  - start: '17:30'
+    end: '18:00'
+    title: Virtual coffee break
+    type: break
+  - start: '18:00'
+    end: '19:30'
+    type: talks
+    title: Session 6
+    talks:
+    - time: '18:00'
+      authors:
+      - M. Benini
+      - R. Bonacina
+      title: A proof-theoretical semantics for homotopy type theory
+    - time: '18:30'
+      authors:
+      - A. Swan
+      title: Towards an enveloping infinity topos for the effective topos
+    - time: '19:00'
+      authors:
+      - J. Frey
+      title: A refinement of Gabriel-Ulmer duality
+- date: 07/07/20
+  sessions:
+  - start: '14:00'
+    end: '15:30'
+    chairs:
+    - TBA
+    type: talks
+    title: Session 7
+    talks:
+    - time: '14:00'
+      authors:
+      - A. Rodin
+      title: "Computer-Assisted Proofs and Mathematical Understanding: the case of Univalent Foundations"
+    - time: '14:30'
+      authors:
+      - T. de Jong
+      title: Domain theory in predicative Univalent Foundations
+    - time: '15:00'
+      authors:
+      - G. Amato
+      - M. Maggesi
+      - M. Parton
+      - C. P. Brogi
+      title: Universal Algebra in UniMath
+  - start: '15:30'
+    end: '16:00'
+    title: Virtual coffee break
+    type: break
+  - start: '16:00'
+    end: '17:30'
+    chairs:
+    - TBA
+    type: talks
+    title: Session 8
+    talks:
+    - time: '16:00'
+      authors:
+      - P.-L. Curien
+      title: A syntactic approach to opetopes, opetopic sets and opetopic categories
+    - time: '17:00'
+      authors:
+      - D. Christensen
+      - L. Scoccola
+      title: The Hurewicz Theorem in Homotopy Type Theory
+  - start: '17:30'
+    end: '18:00'
+    title: Virtual coffee break
+    type: break
+  - start: '18:00'
+    end: '19:30'
+    title: Session 9
+    chairs:
+    - TBA
+    type: talks
+    talks:
+    - time: '18:00'
+      authors:
+      - M. Doré
+      - S. Abramsky
+      title: Towards Simplicial Complexes in Homotopy Type Theory
+    - time: '18:30'
+      authors:
+      - T. Waugh Ambridge
+      title: 'Formalising the Escardó-Simpson Closed Interval Axiomatisation in Univalent Type Theory'
+    - time: '19:00'
+      authors:
+      - H. Robbestad Gylterud
+      title: Non-wellfounded sets in HoTT

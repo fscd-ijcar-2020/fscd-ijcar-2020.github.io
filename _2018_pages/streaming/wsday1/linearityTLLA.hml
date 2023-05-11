@@ -1,0 +1,12 @@
+---
+layout: streaming
+title: Linearity & TLLA (Day 1)
+permalink: streaming/wsday1/linearityTLLA.html
+published: true
+width: 1120
+height: 630
+day: wsday1
+---
+
+{% assign conf = 'linearityTLLA' %}
+{% include streaming.html %}

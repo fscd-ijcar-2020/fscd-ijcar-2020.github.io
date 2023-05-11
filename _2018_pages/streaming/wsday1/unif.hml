@@ -1,0 +1,12 @@
+---
+layout: streaming
+title: Unif
+permalink: streaming/wsday1/unif.html
+published: true
+width: 1120
+height: 630
+day: wsday1
+---
+
+{% assign conf = 'unif' %}
+{% include streaming.html %}

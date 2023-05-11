@@ -1,0 +1,140 @@
+---
+layout: 2018_default
+permalink: /workshops
+title: Affiliated workshops
+published: true
+---
+
+<!-- <script>
+// This is javascript solution to problem of fixed header covering frist lines
+// when jumpoing to a taking
+// Solved without javascript by adding empty span starget with negative padding
+// and equal dimennsion
+
+// The function actually applying the offset
+function offsetAnchor() {
+    if(location.hash.length !== 0) {
+        window.scrollTo(window.scrollX, window.scrollY - 100);
+    }
+}
+
+// This will capture hash changes while on the page
+window.addEventListener("hashchange", offsetAnchor);
+
+// This is here so that when you enter the page with a hash,
+// it can provide the offset in that case too. Having a timeout
+// seems necessary to allow the browser to jump to the anchor first.
+window.setTimeout(offsetAnchor, 1);
+// The delay of 1 is arbitrary and may not always work right (although it did in my testing).
+</script> -->
+
+<!-- <script>
+  $( document ).ready(function() {
+    console.log( "ok!" );
+    window.scrollTop(100);
+  });
+</script> -->
+
+<div class="event black-frame">
+
+  <!-- {% for block in site.data.conference.workshops %}
+    {% for ws in block[1].list %}
+      {% for organiser in ws.organisers %}
+        {{ ws.acronym }};{{ organiser.name }}; {{ organiser.email }}<br />
+      {% endfor %}
+    {% endfor %}
+  {% endfor %} -->
+
+  <h1>{{ page.title }}</h1>
+
+  <div class="row" style="padding-top:20pt">
+    {% include 2018_data/schedule.html %}
+  </div>
+
+  <div>
+    <a class="btn btn-large btn-block btn-warning" type="button"
+      href= /wsprogram >
+      See live program
+    </a>
+  </div>
+
+  {% for block in site.data.conference.workshops %}
+  <h2>{{ block[1].title }}</h2>
+  <div class="row">
+    <table class="table table-hover table-striped" style="border-collapse: separate;
+    border-spacing:0 40px;">
+      <thead>
+        <tr>
+          <th scope="col" width="110">Acronym</th>
+          <th scope="col">Name / Description / Organisers</th>
+          <th scope="col" width="30">Edition</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for ws in block[1].list %}
+        <tr>
+          <td>
+            <!-- this avoid fixed header to cover first lines of the entry
+                 scroll the position of the tag down w.r.t the top of the window -->
+            <span id="{{ ws.acronym }}"
+                  style="margin-top: -100px; padding-bottom: 100px; display: block;">
+            </span>
+            {% if ws.url %}
+            <a href="{{ ws.url }}">{{ ws.acronym }}</a>
+            {% else %}
+            {{ ws.acronym }}
+            {% endif %}
+            {% if ws.main_conf == "FSCD" %}
+              {% assign color = site.data.conference.global.fscd.color %}
+              {% assign url = site.data.conference.global.fscd.url-2020 %}
+              {% assign text = "FSCD" %}
+            {% else %}
+              {% assign color = site.data.conference.global.ijcar.color %}
+              {% assign url = site.data.conference.global.ijcar.url-2020 %}
+              {% assign text = "IJCAR" %}
+            {% endif %}
+            <div style="padding-top:10px;">
+              <a class="btn btn-sm btn-block" type="button"
+                style="background-color:{{ color }};"
+                href= {{ url }}>
+                {{ text }}
+              </a>
+            </div>
+          </td>
+          <td>
+            <table>
+              <tr><td>
+                {% if ws.url %}
+                  <a href="{{ ws.url }}">{{ ws.name }}</a>
+                {% else %}
+                  {{ ws.name }}
+                {% endif %}
+              </td></tr>
+              <tr><td style="padding-top:5pt">
+                {{ ws.description }}
+              </td></tr>
+              <tr><td style="padding-top:5pt">
+                <!-- <strong>Organisers:</strong> -->
+                {% for organiser in ws.organisers %}
+                {% if organiser.webpage %}
+                <a href="{{ organiser.webpage }}">{{ organiser.name }}</a>
+                {% else %}
+                {{ organiser.name }}
+                {% endif %}
+                - {{ organiser.affiliation }}
+                <br/>
+                {% endfor %}
+                <div style="float: right;" align="right">
+                  <a href="#schedule">Back to schedule</a>
+                </div>
+             </td></tr>
+           </table>
+          </td>
+          <td>{{ ws.edition }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% endfor %}
+</div>
