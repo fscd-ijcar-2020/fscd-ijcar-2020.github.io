@@ -17,10 +17,10 @@ description: > # this means to ignore newlines until "baseurl:"
 logo:
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://fscd-ijcar-2020.org" # the base hostname & protocol for your site
+url: "http://fscd-ijcar-2020.github.io" # the base hostname & protocol for your site
 
 # Contact email
-contact: contact@fscd-ijcar-2020.org
+contact: stefano.guerrini@univ-paris13.fr
 
 google_site_verification: googleXXXXXXXXXXXXXXXX.html
 

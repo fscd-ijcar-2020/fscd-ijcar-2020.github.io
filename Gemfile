@@ -11,3 +11,5 @@ gem "jekyll", "~> 4.0"
 gem "jekyll-sitemap", "~> 1.3"
 
 gem "jekyll-seo-tag", "~> 2.6"
+
+gem "webrick"
